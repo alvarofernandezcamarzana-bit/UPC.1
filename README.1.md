@@ -16,4 +16,5 @@ Los archivos **.txt** incluyen los datos de aeropuertos que se cargan al ejecuta
 Finalmente, **README.md** es el archivo explicativo que se está consultando.
 
 
-Gracias por su atención !!
+Enlace a vídeo de la versión 1:
+https://youtu.be/cfmzWoihDYw

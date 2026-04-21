@@ -14,15 +14,59 @@ ERROR_NOT_FOUND = -2
 ERROR_FILE = -3
 
 
-def Airport(code, latitude, longitude):
+def Airport(code, latitude, longitude, year=0, capacity=0):
     """Crea un aeropuerto como diccionario simple."""
     airport = {
         "code": str(code).strip().upper(),
         "latitude": float(latitude),
         "longitude": float(longitude),
+        "year": int(year),
+        "capacity": int(capacity),
         "schengen": False,
     }
     return airport
+
+
+def GetYear(airport):
+    """Devuelve el año de inauguración del aeropuerto."""
+    year = 0
+
+    if airport is not None:
+        year = airport["year"]
+
+    return year
+
+
+def SetYear(airport, year):
+    """Actualiza el año de inauguración del aeropuerto."""
+    if airport is not None:
+        airport["year"] = int(year)
+
+
+def GetCapacity(airport):
+    """Devuelve la capacidad del aeropuerto."""
+    capacity = 0
+
+    if airport is not None:
+        capacity = airport["capacity"]
+
+    return capacity
+
+
+def SetCapacity(airport, capacity):
+    """Actualiza la capacidad del aeropuerto."""
+    if airport is not None:
+        airport["capacity"] = int(capacity)
+
+
+def GetSchengen(airport):
+    """Devuelve el atributo schengen del aeropuerto."""
+    schengen = False
+
+    if airport is not None:
+        schengen = airport["schengen"]
+
+    return schengen
 
 
 def _normalize_code(code):
@@ -56,6 +100,72 @@ def SetSchengen(airport):
         airport["schengen"] = IsSchengenAirport(airport["code"])
 
 
+def ModifyAirport(airport, code, latitude, longitude, year, capacity):
+    """Modifica los campos del aeropuerto recibido."""
+    result = False
+
+    if airport is not None:
+        airport["code"] = _normalize_code(code)
+        airport["latitude"] = float(latitude)
+        airport["longitude"] = float(longitude)
+        airport["year"] = int(year)
+        airport["capacity"] = int(capacity)
+        result = True
+
+    return result
+
+
+def AirportToString(airport):
+    """Devuelve una cadena con la información del aeropuerto."""
+    result = ""
+
+    if airport is not None:
+        result = (
+            f"{airport['code']} | "
+            f"Lat: {airport['latitude']:.6f} | "
+            f"Lon: {airport['longitude']:.6f} | "
+            f"Año: {airport['year']} | "
+            f"Capacidad: {airport['capacity']} | "
+            f"Schengen: {'Sí' if airport['schengen'] else 'No'}"
+        )
+
+    return result
+
+
+def SearchAirport(airports, code):
+    """Busca un aeropuerto por código y lo devuelve."""
+    code = _normalize_code(code)
+    result = None
+    index = 0
+    found = False
+
+    while index < len(airports) and not found:
+        if airports[index]["code"] == code:
+            result = airports[index]
+            found = True
+        else:
+            index += 1
+
+    return result
+
+
+def FilterAirports(airports, min_year, max_year, min_capacity, max_capacity):
+    """Filtra aeropuertos por rango de año y capacidad."""
+    results = []
+
+    for airport in airports:
+        year = airport["year"]
+        capacity = airport["capacity"]
+
+        year_match = (min_year <= year <= max_year) if min_year > 0 else True
+        capacity_match = (min_capacity <= capacity <= max_capacity) if min_capacity > 0 else True
+
+        if year_match and capacity_match:
+            results.append(airport)
+
+    return results
+
+
 def PrintAirport(airport):
     """Imprime por consola la información del aeropuerto."""
     if airport is None:
@@ -65,6 +175,8 @@ def PrintAirport(airport):
             f"Code: {airport['code']} | "
             f"Latitude: {airport['latitude']:.6f} | "
             f"Longitude: {airport['longitude']:.6f} | "
+            f"Year: {airport['year']} | "
+            f"Capacity: {airport['capacity']} | "
             f"Schengen: {airport['schengen']}"
         )
 
@@ -161,9 +273,11 @@ def LoadAirports(filename):
                                 code = _normalize_code(parts[0])
                                 latitude = _sexagesimal_to_decimal(parts[1])
                                 longitude = _sexagesimal_to_decimal(parts[2])
+                                year = int(parts[3]) if len(parts) > 3 and parts[3].isdigit() else 0
+                                capacity = int(parts[4]) if len(parts) > 4 and parts[4].isdigit() else 0
 
                                 if code != "" and latitude is not None and longitude is not None:
-                                    airport = Airport(code, latitude, longitude)
+                                    airport = Airport(code, latitude, longitude, year, capacity)
                                     airports.append(airport)
                                 else:
                                     print(f"Línea ignorada por datos inválidos: {line}")
@@ -195,12 +309,15 @@ def SaveSchengenAirports(airports, filename):
     else:
         try:
             with open(filename, "w", encoding="utf-8") as handler:
-                handler.write("CODE LAT LON\n")
+                handler.write("CODE LAT LON YEAR CAPACITY\n")
 
                 for airport in schengen_airports:
                     lat_text = _decimal_to_sexagesimal(airport["latitude"], True)
                     lon_text = _decimal_to_sexagesimal(airport["longitude"], False)
-                    handler.write(f"{airport['code']} {lat_text} {lon_text}\n")
+                    handler.write(
+                        f"{airport['code']} {lat_text} {lon_text} "
+                        f"{airport['year']} {airport['capacity']}\n"
+                    )
 
         except OSError:
             print(f"Error al escribir el fichero '{filename}'.")
@@ -233,13 +350,28 @@ def RemoveAirport(airports, code):
     code = _normalize_code(code)
     result = ERROR_NOT_FOUND
     index = 0
+    removed = False
 
-    while index < len(airports) and result == ERROR_NOT_FOUND:
+    while index < len(airports) and not removed:
         if airports[index]["code"] == code:
-            del airports[index]
-            result = index
+            airports[index] = None
+            removed = True
         else:
             index += 1
+
+    if removed:
+        new_list = []
+        i = 0
+        while i < len(airports):
+            if airports[i] is not None:
+                new_list.append(airports[i])
+            i += 1
+        airports.clear()
+        i = 0
+        while i < len(new_list):
+            airports.append(new_list[i])
+            i += 1
+        result = index
 
     return result
 
@@ -353,8 +485,17 @@ def MapAirports(airports, output_filename="airports_map.kml"):
 
 __all__ = [
     "Airport",
-    "IsSchengenAirport",
+    "GetYear",
+    "SetYear",
+    "GetCapacity",
+    "SetCapacity",
+    "GetSchengen",
     "SetSchengen",
+    "ModifyAirport",
+    "AirportToString",
+    "SearchAirport",
+    "FilterAirports",
+    "IsSchengenAirport",
     "PrintAirport",
     "LoadAirports",
     "SaveSchengenAirports",

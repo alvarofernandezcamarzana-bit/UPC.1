@@ -18,3 +18,9 @@ Finalmente, **README.md** es el archivo explicativo que se está consultando.
 
 Enlace a vídeo de la versión 1:
 https://youtu.be/cfmzWoihDYw
+
+
+
+
+Enlace a vídeo de la versión 2:
+https://youtu.be/g1OTR3aHN78

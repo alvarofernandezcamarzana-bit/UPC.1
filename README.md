@@ -38,4 +38,4 @@ Por último, añadimos una función para detectar vuelos de larga distancia (má
 La interfaz gráfica se ha ampliado para incluir todas estas nuevas opciones y poder usarlas de forma más cómoda.
 
 **Enlace al vídeo de la versión 2:**  
-https://youtu.be/g1OTR3aHN78  
+https://youtu.be/g1OTR3aHN78

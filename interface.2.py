@@ -1,7 +1,6 @@
-"""Interfaz gráfica en Tkinter para ProjectoAeropuerto versión 1 y 2."""
+"""Interfaz grafica en Tkinter para ProjectoAeropuerto version 1 y 2."""
 
 import os
-import webbrowser
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
@@ -43,13 +42,7 @@ details = None
 code_var = None
 lat_var = None
 lon_var = None
-year_var = None
-capacity_var = None
 autoschengen_var = None
-col_min_var = None
-col_max_var = None
-col_min_capacity = None
-col_max_capacity = None
 figure = None
 axes = None
 canvas = None
@@ -66,10 +59,12 @@ flights_type_canvas = None
 notebook = None
 v2_notebook = None
 info_text_v2 = None
+airline_vars = {}
+airline_full_data = {}
+airline_check_frame = None
 
 
 def apply_styles():
-    """Aplica un estilo visual suave a la interfaz."""
     style = ttk.Style()
     style.theme_use("clam")
 
@@ -97,10 +92,9 @@ def apply_styles():
 
 
 def build_interface():
-    """Construye todos los componentes de la ventana principal."""
     global root
 
-    root.title("Airport Management - Versión 2")
+    root.title("Airport Management - Version 2")
     root.geometry("1200x800")
     root.minsize(1020, 700)
     root.configure(bg="#f4f1ee")
@@ -117,15 +111,14 @@ def build_interface():
     v1_frame = ttk.Frame(notebook, style="Main.TFrame")
     v2_frame = ttk.Frame(notebook, style="Main.TFrame")
 
-    notebook.add(v1_frame, text="Versión 1 - Aeropuertos")
-    notebook.add(v2_frame, text="Versión 2 - Vuelos")
+    notebook.add(v1_frame, text="Version 1 - Aeropuertos")
+    notebook.add(v2_frame, text="Version 2 - Vuelos")
 
     build_version1(v1_frame)
     build_version2(v2_frame)
 
 
 def build_version1(parent):
-    """Construye los componentes de la versión 1."""
     left_panel = ttk.Frame(parent, padding=(0, 0, 12, 0), style="Main.TFrame")
     left_panel.pack(side=tk.LEFT, fill=tk.Y)
 
@@ -140,7 +133,6 @@ def build_version1(parent):
 
 
 def build_version2(parent):
-    """Construye los componentes de la versión 2."""
     global v2_notebook
 
     left_panel = ttk.Frame(parent, padding=(0, 0, 12, 0), style="Main.TFrame")
@@ -160,7 +152,7 @@ def build_version2(parent):
     flights_type_plot_frame = ttk.Frame(v2_notebook, style="Main.TFrame")
 
     v2_notebook.add(arrivals_plot_frame, text="Llegadas por hora")
-    v2_notebook.add(airlines_plot_frame, text="Por compañía")
+    v2_notebook.add(airlines_plot_frame, text="Por compania")
     v2_notebook.add(flights_type_plot_frame, text="Schengen/No-Schengen")
 
     build_arrivals_plot_area(arrivals_plot_frame)
@@ -169,7 +161,6 @@ def build_version2(parent):
 
 
 def build_form(parent):
-    """Crea el formulario para añadir nuevos aeropuertos."""
     form = ttk.LabelFrame(parent, text="Nuevo aeropuerto", padding=10, style="Panel.TLabelframe")
     form.pack(fill=tk.X, pady=(0, 10))
 
@@ -194,49 +185,34 @@ def build_form(parent):
         row=2, column=1, sticky=tk.W, padx=4, pady=4
     )
 
-    ttk.Label(form, text="Año", style="Custom.TLabel").grid(
-        row=3, column=0, sticky=tk.W, padx=4, pady=4
-    )
-    ttk.Entry(form, textvariable=year_var, width=14).grid(
-        row=3, column=1, sticky=tk.W, padx=4, pady=4
-    )
-
-    ttk.Label(form, text="Capacidad", style="Custom.TLabel").grid(
-        row=4, column=0, sticky=tk.W, padx=4, pady=4
-    )
-    ttk.Entry(form, textvariable=capacity_var, width=14).grid(
-        row=4, column=1, sticky=tk.W, padx=4, pady=4
-    )
-
     ttk.Checkbutton(
         form,
-        text="Asignar Schengen automáticamente",
+        text="Asignar Schengen automaticamente",
         variable=autoschengen_var,
-    ).grid(row=5, column=0, columnspan=2, sticky=tk.W, padx=4, pady=6)
+    ).grid(row=3, column=0, columnspan=2, sticky=tk.W, padx=4, pady=6)
 
     ttk.Button(
         form,
-        text="Añadir aeropuerto",
+        text="Anadir aeropuerto",
         command=add_airport,
         style="Custom.TButton",
-    ).grid(row=6, column=0, columnspan=2, sticky=tk.EW, padx=4, pady=(6, 2))
+    ).grid(row=4, column=0, columnspan=2, sticky=tk.EW, padx=4, pady=(6, 2))
 
     ttk.Button(
         form,
         text="Modificar seleccionado",
         command=modify_selected,
         style="Custom.TButton",
-    ).grid(row=7, column=0, columnspan=2, sticky=tk.EW, padx=4, pady=(4, 2))
+    ).grid(row=5, column=0, columnspan=2, sticky=tk.EW, padx=4, pady=(4, 2))
 
     form.columnconfigure(1, weight=1)
 
 
 def build_buttons(parent):
-    """Crea el panel de botones principales."""
     buttons = ttk.LabelFrame(parent, text="Operaciones", padding=10, style="Panel.TLabelframe")
     buttons.pack(fill=tk.X)
 
-    ttk.Button(buttons, text="Cargar fichier", command=load_file, style="Custom.TButton").grid(
+    ttk.Button(buttons, text="Cargar fichero", command=load_file, style="Custom.TButton").grid(
         row=0, column=0, padx=4, pady=4, sticky=tk.EW
     )
     ttk.Button(
@@ -267,7 +243,7 @@ def build_buttons(parent):
     ).grid(row=2, column=0, padx=4, pady=4, sticky=tk.EW)
     ttk.Button(
         buttons,
-        text="Gráfico",
+        text="Grafico",
         command=plot_airports_interface,
         style="Custom.TButton",
     ).grid(row=2, column=1, padx=4, pady=4, sticky=tk.EW)
@@ -285,53 +261,24 @@ def build_buttons(parent):
         style="Custom.TButton",
     ).grid(row=3, column=1, padx=4, pady=4, sticky=tk.EW)
 
-    ttk.Label(buttons, text="Año mín:", style="Custom.TLabel").grid(
-        row=4, column=0, padx=4, pady=2, sticky=tk.E
-    )
-    ttk.Entry(buttons, textvariable=col_min_var, width=8).grid(
-        row=4, column=1, padx=4, pady=2, sticky=tk.W
-    )
-
-    ttk.Label(buttons, text="Año máx:", style="Custom.TLabel").grid(
-        row=5, column=0, padx=4, pady=2, sticky=tk.E
-    )
-    ttk.Entry(buttons, textvariable=col_max_var, width=8).grid(
-        row=5, column=1, padx=4, pady=2, sticky=tk.W
-    )
-
-    ttk.Label(buttons, text="Cap. mín:", style="Custom.TLabel").grid(
-        row=6, column=0, padx=4, pady=2, sticky=tk.E
-    )
-    ttk.Entry(buttons, textvariable=col_min_capacity, width=8).grid(
-        row=6, column=1, padx=4, pady=2, sticky=tk.W
-    )
-
-    ttk.Label(buttons, text="Cap. máx:", style="Custom.TLabel").grid(
-        row=7, column=0, padx=4, pady=2, sticky=tk.E
-    )
-    ttk.Entry(buttons, textvariable=col_max_capacity, width=8).grid(
-        row=7, column=1, padx=4, pady=2, sticky=tk.W
-    )
-
     ttk.Button(
         buttons,
         text="Filtrar",
         command=filter_airports,
         style="Custom.TButton",
-    ).grid(row=8, column=0, padx=4, pady=4, sticky=tk.EW)
+    ).grid(row=4, column=0, padx=4, pady=4, sticky=tk.EW)
     ttk.Button(
         buttons,
         text="Mostrar todos",
         command=show_all_airports,
         style="Custom.TButton",
-    ).grid(row=8, column=1, padx=4, pady=4, sticky=tk.EW)
+    ).grid(row=4, column=1, padx=4, pady=4, sticky=tk.EW)
 
     for column in range(2):
         buttons.columnconfigure(column, weight=1)
 
 
 def build_flight_buttons(parent):
-    """Crea el panel de botones para vuelos."""
     buttons = ttk.LabelFrame(parent, text="Operaciones de vuelos", padding=10, style="Panel.TLabelframe")
     buttons.pack(fill=tk.X)
 
@@ -340,7 +287,7 @@ def build_flight_buttons(parent):
     )
     ttk.Button(
         buttons,
-        text="Gráfico horas",
+        text="Grafico horas",
         command=plot_arrivals_interface,
         style="Custom.TButton",
     ).grid(row=0, column=1, padx=4, pady=4, sticky=tk.EW)
@@ -353,7 +300,7 @@ def build_flight_buttons(parent):
     ).grid(row=1, column=0, padx=4, pady=4, sticky=tk.EW)
     ttk.Button(
         buttons,
-        text="Gráfico compañías",
+        text="Grafico companias",
         command=plot_airlines_interface,
         style="Custom.TButton",
     ).grid(row=1, column=1, padx=4, pady=4, sticky=tk.EW)
@@ -401,10 +348,9 @@ def build_flight_buttons(parent):
 
 
 def build_table(parent):
-    """Crea la tabla donde se muestran los aeropuertos."""
     ttk.Label(parent, text="Aeropuertos cargados", style="Custom.TLabel").pack(anchor=tk.W)
 
-    columns = ("code", "lat", "lon", "year", "capacity", "schengen")
+    columns = ("code", "lat", "lon", "schengen")
 
     global tree
     tree = ttk.Treeview(parent, columns=columns, show="headings", height=10)
@@ -412,15 +358,11 @@ def build_table(parent):
     tree.heading("code", text="ICAO")
     tree.heading("lat", text="Latitud")
     tree.heading("lon", text="Longitud")
-    tree.heading("year", text="Año")
-    tree.heading("capacity", text="Capacidad")
     tree.heading("schengen", text="Schengen")
 
     tree.column("code", width=70, anchor=tk.CENTER)
     tree.column("lat", width=100, anchor=tk.CENTER)
     tree.column("lon", width=100, anchor=tk.CENTER)
-    tree.column("year", width=60, anchor=tk.CENTER)
-    tree.column("capacity", width=80, anchor=tk.CENTER)
     tree.column("schengen", width=80, anchor=tk.CENTER)
 
     tree.pack(fill=tk.BOTH, expand=False)
@@ -428,7 +370,6 @@ def build_table(parent):
 
 
 def build_aircraft_table(parent):
-    """Crea la tabla donde se muestran los vuelos."""
     ttk.Label(parent, text="Vuelos cargados", style="Custom.TLabel").pack(anchor=tk.W)
 
     columns = ("id", "origin", "arrival", "airline")
@@ -439,7 +380,7 @@ def build_aircraft_table(parent):
     aircraft_tree.heading("id", text="ID")
     aircraft_tree.heading("origin", text="Origen")
     aircraft_tree.heading("arrival", text="Llegada")
-    aircraft_tree.heading("airline", text="Compañía")
+    aircraft_tree.heading("airline", text="Compania")
 
     aircraft_tree.column("id", width=100, anchor=tk.CENTER)
     aircraft_tree.column("origin", width=80, anchor=tk.CENTER)
@@ -450,8 +391,7 @@ def build_aircraft_table(parent):
 
 
 def build_log(parent):
-    """Crea la zona de texto para mostrar mensajes."""
-    ttk.Label(parent, text="Información", style="Custom.TLabel").pack(anchor=tk.W, pady=(10, 0))
+    ttk.Label(parent, text="Informacion", style="Custom.TLabel").pack(anchor=tk.W, pady=(10, 0))
 
     global details
     details = tk.Text(
@@ -467,8 +407,7 @@ def build_log(parent):
 
 
 def build_plot_area(parent):
-    """Crea la zona donde se incruta la gráfica de aeropuertos."""
-    ttk.Label(parent, text="Gráfico Schengen/No Schengen", style="Custom.TLabel").pack(
+    ttk.Label(parent, text="Grafico Schengen/No Schengen", style="Custom.TLabel").pack(
         anchor=tk.W, pady=(10, 0)
     )
 
@@ -492,8 +431,7 @@ def build_plot_area(parent):
 
 
 def build_arrivals_plot_area(parent):
-    """Crea la zona donde se incruta la gráfica de arrivals."""
-    ttk.Label(parent, text="Gráfico de llegadas por hora", style="Custom.TLabel").pack(
+    ttk.Label(parent, text="Grafico de llegadas por hora", style="Custom.TLabel").pack(
         anchor=tk.W, pady=(10, 0)
     )
 
@@ -518,13 +456,15 @@ def build_arrivals_plot_area(parent):
 
 
 def build_airlines_plot_area(parent):
-    """Crea la zona donde se muestra la gráfica de aerolineas."""
-    ttk.Label(parent, text="Gráfico de vuelos por compañía", style="Custom.TLabel").pack(
+    ttk.Label(parent, text="Grafico de vuelos por compania", style="Custom.TLabel").pack(
         anchor=tk.W, pady=(10, 0)
     )
 
-    plot_frame = ttk.Frame(parent, style="Main.TFrame")
-    plot_frame.pack(fill=tk.BOTH, expand=True, pady=(4, 0))
+    main_frame = ttk.Frame(parent, style="Main.TFrame")
+    main_frame.pack(fill=tk.BOTH, expand=True, pady=(4, 0))
+
+    plot_frame = ttk.Frame(main_frame, style="Main.TFrame")
+    plot_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
     global airlines_figure
     global airlines_axes
@@ -541,10 +481,33 @@ def build_airlines_plot_area(parent):
     airlines_canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
     airlines_canvas.draw()
 
+    check_panel = ttk.Frame(main_frame, style="Main.TFrame")
+    check_panel.pack(side=tk.RIGHT, fill=tk.Y, padx=(8, 0))
+
+    ttk.Label(check_panel, text="Filtrar companias:", style="Custom.TLabel").pack(
+        anchor=tk.W, pady=(0, 4)
+    )
+
+    check_canvas = tk.Canvas(check_panel, width=200, bg="#f4f1ee", highlightthickness=0)
+    check_scroll = ttk.Scrollbar(check_panel, orient="vertical", command=check_canvas.yview)
+
+    global airline_check_frame
+    airline_check_frame = ttk.Frame(check_canvas, style="Main.TFrame")
+
+    airline_check_frame.bind(
+        "<Configure>",
+        lambda e: check_canvas.configure(scrollregion=check_canvas.bbox("all")),
+    )
+
+    check_canvas.create_window((0, 0), window=airline_check_frame, anchor="nw", width=190)
+    check_canvas.configure(yscrollcommand=check_scroll.set)
+
+    check_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+    check_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+
 
 def build_flights_type_plot_area(parent):
-    """Crea la zona donde se muestra la gráfica Schengen/No-Schengen."""
-    ttk.Label(parent, text="Gráfico Schengen vs No-Schengen", style="Custom.TLabel").pack(
+    ttk.Label(parent, text="Grafico Schengen vs No-Schengen", style="Custom.TLabel").pack(
         anchor=tk.W, pady=(10, 0)
     )
 
@@ -568,27 +531,21 @@ def build_flights_type_plot_area(parent):
 
 
 def log_message(message):
-    """Escribe un mensaje en la zona de información."""
     details.insert(tk.END, message + "\n")
     details.see(tk.END)
 
 
 def clear_log():
-    """Borra el contenido de la zona de información."""
     details.delete("1.0", tk.END)
 
 
 def clear_input_fields():
-    """Limpia los campos del formulaire."""
     code_var.set("")
     lat_var.set("")
     lon_var.set("")
-    year_var.set("")
-    capacity_var.set("")
 
 
 def apply_schengen_flags():
-    """Actualiza el atributo Schengen de todos los aeropuertos."""
     i = 0
     while i < len(airports):
         SetSchengen(airports[i])
@@ -596,7 +553,6 @@ def apply_schengen_flags():
 
 
 def selected_index():
-    """Devuelve el índice del aeropuerto seleccionado."""
     selection = tree.selection()
     index = -1
 
@@ -611,7 +567,6 @@ def selected_index():
 
 
 def selected_airport():
-    """Devuelve el aeropuerto seleccionado."""
     airport = None
     index = selected_index()
 
@@ -622,7 +577,6 @@ def selected_airport():
 
 
 def refresh_list():
-    """Actualiza la tabla con la lista actual."""
     apply_schengen_flags()
 
     for item in tree.get_children():
@@ -635,19 +589,16 @@ def refresh_list():
             tk.END,
             iid=str(i),
             values=(
-                airports[i]["code"],
-                f"{airports[i]['latitude']:.6f}",
-                f"{airports[i]['longitude']:.6f}",
-                airports[i]["year"],
-                airports[i]["capacity"],
-                "Sí" if airports[i]["schengen"] else "No",
+                airports[i].code,
+                f"{airports[i].latitude:.6f}",
+                f"{airports[i].longitude:.6f}",
+                "Si" if airports[i].schengen else "No",
             ),
         )
         i += 1
 
 
 def refresh_aircraft_list():
-    """Actualiza la tabla de vuelos."""
     for item in aircraft_tree.get_children():
         aircraft_tree.delete(item)
 
@@ -658,21 +609,20 @@ def refresh_aircraft_list():
             tk.END,
             iid=str(i),
             values=(
-                aircrafts[i]["id"],
-                aircrafts[i]["origin"],
-                aircrafts[i]["arrival_time"],
-                aircrafts[i]["airline"],
+                aircrafts[i].id,
+                aircrafts[i].origin,
+                aircrafts[i].arrival_time,
+                aircrafts[i].airline,
             ),
         )
         i += 1
 
 
 def load_file():
-    """Carga una lista de aeropuertos desde un fichier."""
     global airports
 
     filename = filedialog.askopenfilename(
-        title="Selecciona un fichier de aeropuertos",
+        title="Selecciona un fichero de aeropuertos",
         filetypes=[("Text files", "*.txt"), ("Todos los archivos", "*.*")],
     )
 
@@ -687,26 +637,22 @@ def load_file():
         if len(airports) == 0:
             messagebox.showwarning(
                 "Aviso",
-                "No se ha cargado ningún aeropuerto. Revisa el fichier seleccionado.",
+                "No se ha cargado ningun aeropuerto. Revisa el fichero seleccionado.",
             )
 
 
 def show_selected(_event=None):
-    """Muestra en el panel inferior la información del aeropuerto seleccionado."""
     airport = selected_airport()
 
     if airport:
         clear_log()
-        log_message(f"Código ICAO: {airport['code']}")
-        log_message(f"Latitud: {airport['latitude']:.6f}")
-        log_message(f"Longitud: {airport['longitude']:.6f}")
-        log_message(f"Año: {airport['year']}")
-        log_message(f"Capacidad: {airport['capacity']}")
-        log_message(f"Schengen: {'Sí' if airport['schengen'] else 'No'}")
+        log_message(f"Codigo ICAO: {airport.code}")
+        log_message(f"Latitud: {airport.latitude:.6f}")
+        log_message(f"Longitud: {airport.longitude:.6f}")
+        log_message(f"Schengen: {'Si' if airport.schengen else 'No'}")
 
 
 def show_all():
-    """Muestra en el panel inferior todos los aeropuertos cargados."""
     apply_schengen_flags()
     clear_log()
 
@@ -719,28 +665,23 @@ def show_all():
         i = 0
         while i < len(airports):
             log_message(
-                f"{airports[i]['code']} | "
-                f"Lat: {airports[i]['latitude']:.6f} | "
-                f"Lon: {airports[i]['longitude']:.6f} | "
-                f"Año: {airports[i]['year']} | "
-                f"Cap: {airports[i]['capacity']} | "
-                f"Schengen: {'Sí' if airports[i]['schengen'] else 'No'}"
+                f"{airports[i].code} | "
+                f"Lat: {airports[i].latitude:.6f} | "
+                f"Lon: {airports[i].longitude:.6f} | "
+                f"Schengen: {'Si' if airports[i].schengen else 'No'}"
             )
             i += 1
 
 
 def add_airport():
-    """Añade un aeropuerto a partir de los datos del formulaire."""
     code = code_var.get().strip()
     valid_data = True
     latitude = 0.0
     longitude = 0.0
-    year = 0
-    capacity = 0
 
     if code == "":
         valid_data = False
-        messagebox.showerror("Error", "El código ICAO no puede estar vacío.")
+        messagebox.showerror("Error", "El codigo ICAO no puede estar vacio.")
 
     if valid_data:
         try:
@@ -748,19 +689,10 @@ def add_airport():
             longitude = float(lon_var.get())
         except ValueError:
             valid_data = False
-            messagebox.showerror("Error", "Latitud y longitud deben ser números reales.")
+            messagebox.showerror("Error", "Latitud y longitud deben ser numeros reales.")
 
     if valid_data:
-        year_text = year_var.get().strip()
-        if year_text != "":
-            year = int(year_text) if year_text.isdigit() else 0
-
-        capacity_text = capacity_var.get().strip()
-        if capacity_text != "":
-            capacity = int(capacity_text) if capacity_text.isdigit() else 0
-
-    if valid_data:
-        airport = Airport(code, latitude, longitude, year, capacity)
+        airport = Airport(code, latitude, longitude)
 
         if autoschengen_var.get():
             SetSchengen(airport)
@@ -771,37 +703,35 @@ def add_airport():
             refresh_list()
             clear_input_fields()
             clear_log()
-            log_message(f"Aeropuerto añadido correctamente: {airport['code']}")
+            log_message(f"Aeropuerto anadido correctamente: {airport.code}")
         else:
             messagebox.showwarning("Aviso", "Ese aeropuerto ya existe en la lista.")
 
 
 def remove_selected():
-    """Elimina de la lista el aeropuerto seleccionado."""
     airport = selected_airport()
 
     if airport is None:
-        messagebox.showinfo("Información", "Selecciona un aeropuerto en la tabla.")
+        messagebox.showinfo("Informacion", "Selecciona un aeropuerto en la tabla.")
     else:
-        result = RemoveAirport(airports, airport["code"])
+        result = RemoveAirport(airports, airport.code)
 
         if result == ERROR_NOT_FOUND:
-            messagebox.showwarning("Aviso", "No se encontró el aeropuerto a eliminar.")
+            messagebox.showwarning("Aviso", "No se encontro el aeropuerto a eliminar.")
         else:
             refresh_list()
             clear_log()
-            log_message(f"Aeropuerto eliminado: {airport['code']}")
+            log_message(f"Aeropuerto eliminado: {airport.code}")
 
 
 def detect_schengen():
-    """Actualiza el atributo Schengen del aeropuerto seleccionado o de todos."""
     airport = selected_airport()
 
     if airport is not None:
         SetSchengen(airport)
         refresh_list()
         clear_log()
-        log_message(f"Atributo Schengen actualizado para: {airport['code']}")
+        log_message(f"Atributo Schengen actualizado para: {airport.code}")
     else:
         apply_schengen_flags()
         refresh_list()
@@ -810,9 +740,8 @@ def detect_schengen():
 
 
 def save_schengen():
-    """Guarda en fichier solo los aeropuertos Schengen."""
     if len(airports) == 0:
-        messagebox.showinfo("Información", "No hay aeropuertos para guardar.")
+        messagebox.showinfo("Informacion", "No hay aeropuertos para guardar.")
     else:
         apply_schengen_flags()
 
@@ -828,7 +757,7 @@ def save_schengen():
             if result == ERROR_EMPTY_LIST:
                 messagebox.showwarning("Aviso", "No hay aeropuertos Schengen en la lista.")
             elif result < 0:
-                messagebox.showerror("Error", "No se pudo guardar el fichier de salida.")
+                messagebox.showerror("Error", "No se pudo guardar el fichero de salida.")
             else:
                 clear_log()
                 log_message(f"Fichero guardado: {filename}")
@@ -837,9 +766,8 @@ def save_schengen():
 
 
 def plot_airports_interface():
-    """Muestra el gráfico integrado dentro de la propia interfaz."""
     if len(airports) == 0:
-        messagebox.showinfo("Información", "Carga o añade aeropuertos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade aeropuertos primero.")
     else:
         apply_schengen_flags()
         drawn = PlotAirports(airports, axes)
@@ -848,60 +776,54 @@ def plot_airports_interface():
             figure.subplots_adjust(left=0.12, right=0.97, top=0.88, bottom=0.16)
             canvas.draw()
             clear_log()
-            log_message("Gráfico actualizado dentro de la interfaz.")
+            log_message("Grafico actualizado dentro de la interfaz.")
         else:
-            messagebox.showwarning("Aviso", "No se pudo dibujar el gráfico.")
+            messagebox.showwarning("Aviso", "No se pudo dibujar el grafico.")
 
 
 def map_airports():
-    """Genera el fichier KML y trata de abrirlo."""
     if len(airports) == 0:
-        messagebox.showinfo("Información", "Carga o añade aeropuertos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade aeropuertos primero.")
     else:
         apply_schengen_flags()
         filename = MapAirports(airports)
 
         if filename is None:
-            messagebox.showerror("Error", "No se pudo generar el fichier KML.")
+            messagebox.showerror("Error", "No se pudo generar el fichero KML.")
         else:
             clear_log()
             log_message(f"Fichero KML generado: {filename}")
-            log_message("Ábrelo con Google Earth si no se muestra automáticamente.")
+            os.startfile(filename)
 
 
 def modify_selected():
-    """Modifica el aeropuerto seleccionado con los datos del formulaire."""
     airport = selected_airport()
 
     if airport is None:
-        messagebox.showinfo("Información", "Selecciona un aeropuerto en la tabla.")
+        messagebox.showinfo("Informacion", "Selecciona un aeropuerto en la tabla.")
     else:
         code = code_var.get().strip()
         if code == "":
-            code = airport["code"]
+            code = airport.code
 
-        latitude = airport["latitude"]
-        longitude = airport["longitude"]
-        year = airport["year"]
-        capacity = airport["capacity"]
+        latitude = airport.latitude
+        longitude = airport.longitude
 
         lat_text = lat_var.get().strip()
         if lat_text != "":
-            latitude = float(lat_text) if lat_text.replace(".", "").replace("-", "").isdigit() else airport["latitude"]
+            try:
+                latitude = float(lat_text)
+            except ValueError:
+                pass
 
         lon_text = lon_var.get().strip()
         if lon_text != "":
-            longitude = float(lon_text) if lon_text.replace(".", "").replace("-", "").isdigit() else airport["longitude"]
+            try:
+                longitude = float(lon_text)
+            except ValueError:
+                pass
 
-        year_text = year_var.get().strip()
-        if year_text != "":
-            year = int(year_text) if year_text.isdigit() else airport["year"]
-
-        capacity_text = capacity_var.get().strip()
-        if capacity_text != "":
-            capacity = int(capacity_text) if capacity_text.isdigit() else airport["capacity"]
-
-        ModifyAirport(airport, code, latitude, longitude, year, capacity)
+        ModifyAirport(airport, code, latitude, longitude, 0, 0)
 
         if autoschengen_var.get():
             SetSchengen(airport)
@@ -909,39 +831,17 @@ def modify_selected():
         refresh_list()
         clear_input_fields()
         clear_log()
-        log_message(f"Aeropuerto modificado: {airport['code']}")
+        log_message(f"Aeropuerto modificado: {airport.code}")
 
 
 def filter_airports():
-    """Filtra los aeropuertos según los criterios especificados."""
     if len(airports) == 0:
-        messagebox.showinfo("Información", "No hay aeropuertos para filtrar.")
+        messagebox.showinfo("Informacion", "No hay aeropuertos para filtrar.")
     else:
-        min_year = 0
-        max_year = 0
-        min_capacity = 0
-        max_capacity = 0
-
-        min_text = col_min_var.get().strip()
-        if min_text != "":
-            min_year = int(min_text) if min_text.isdigit() else 0
-
-        max_text = col_max_var.get().strip()
-        if max_text != "":
-            max_year = int(max_text) if max_text.isdigit() else 0
-
-        min_cap_text = col_min_capacity.get().strip()
-        if min_cap_text != "":
-            min_capacity = int(min_cap_text) if min_cap_text.isdigit() else 0
-
-        max_cap_text = col_max_capacity.get().strip()
-        if max_cap_text != "":
-            max_capacity = int(max_cap_text) if max_cap_text.isdigit() else 0
-
-        filtered = FilterAirports(airports, min_year, max_year, min_capacity, max_capacity)
+        filtered = FilterAirports(airports, 0, 0, 0, 0)
 
         if len(filtered) == 0:
-            messagebox.showinfo("Información", "No hay aeropuertos que coincidan con los filtros.")
+            messagebox.showinfo("Informacion", "No hay aeropuertos que coincidan con los filtros.")
         else:
             clear_log()
             log_message(f"Aeropuertos encontrados: {len(filtered)}")
@@ -950,20 +850,17 @@ def filter_airports():
             i = 0
             while i < len(filtered):
                 log_message(
-                    f"{filtered[i]['code']} | "
-                    f"Lat: {filtered[i]['latitude']:.6f} | "
-                    f"Lon: {filtered[i]['longitude']:.6f} | "
-                    f"Año: {filtered[i]['year']} | "
-                    f"Cap: {filtered[i]['capacity']} | "
-                    f"Schengen: {'Sí' if filtered[i]['schengen'] else 'No'}"
+                    f"{filtered[i].code} | "
+                    f"Lat: {filtered[i].latitude:.6f} | "
+                    f"Lon: {filtered[i].longitude:.6f} | "
+                    f"Schengen: {'Si' if filtered[i].schengen else 'No'}"
                 )
                 i += 1
 
 
 def show_all_airports():
-    """Muestra todos los aeropuertos sin aplicar filtros."""
     if len(airports) == 0:
-        messagebox.showinfo("Información", "No hay aeropuertos para mostrar.")
+        messagebox.showinfo("Informacion", "No hay aeropuertos para mostrar.")
     else:
         clear_log()
         log_message(f"Total de aeropuertos: {len(airports)}")
@@ -972,22 +869,19 @@ def show_all_airports():
         i = 0
         while i < len(airports):
             log_message(
-                f"{airports[i]['code']} | "
-                f"Lat: {airports[i]['latitude']:.6f} | "
-                f"Lon: {airports[i]['longitude']:.6f} | "
-                f"Año: {airports[i]['year']} | "
-                f"Cap: {airports[i]['capacity']} | "
-                f"Schengen: {'Sí' if airports[i]['schengen'] else 'No'}"
+                f"{airports[i].code} | "
+                f"Lat: {airports[i].latitude:.6f} | "
+                f"Lon: {airports[i].longitude:.6f} | "
+                f"Schengen: {'Si' if airports[i].schengen else 'No'}"
             )
             i += 1
 
 
 def load_arrivals():
-    """Carga una lista de vuelos desde un fichier."""
     global aircrafts
 
     filename = filedialog.askopenfilename(
-        title="Selecciona un fichier de vuelos",
+        title="Selecciona un fichero de vuelos",
         filetypes=[("Text files", "*.txt"), ("Todos los archivos", "*.*")],
     )
 
@@ -1002,14 +896,13 @@ def load_arrivals():
         if len(aircrafts) == 0:
             messagebox.showwarning(
                 "Aviso",
-                "No se ha cargado ningún vuelo. Revisa el fichier seleccionado.",
+                "No se ha cargado ningun vuelo. Revisa el fichero seleccionado.",
             )
 
 
 def plot_arrivals_interface():
-    """Muestra el gráfico de llegadas por hora."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
         hourly_data = PlotArrivals(aircrafts)
 
@@ -1032,15 +925,14 @@ def plot_arrivals_interface():
             arrivals_figure.subplots_adjust(left=0.12, right=0.97, top=0.88, bottom=0.16)
             arrivals_canvas.draw()
             clear_log()
-            log_message("Gráfico de llegadas actualizado.")
+            log_message("Grafico de llegadas actualizado.")
         else:
-            messagebox.showwarning("Aviso", "No se pudo dibujar el gráfico.")
+            messagebox.showwarning("Aviso", "No se pudo dibujar el grafico.")
 
 
 def save_flights():
-    """Guarda los vuelos en un fichier."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "No hay vuelos para guardar.")
+        messagebox.showinfo("Informacion", "No hay vuelos para guardar.")
     else:
         filename = filedialog.asksaveasfilename(
             title="Guardar vuelos",
@@ -1052,7 +944,7 @@ def save_flights():
             result = SaveFlights(aircrafts, filename)
 
             if result < 0:
-                messagebox.showerror("Error", "No se pudo guardar el fichier de salida.")
+                messagebox.showerror("Error", "No se pudo guardar el fichero de salida.")
             else:
                 clear_log()
                 log_message(f"Fichero guardado: {filename}")
@@ -1061,97 +953,102 @@ def save_flights():
 
 
 def log_message_v2(message):
-    """Escribe un mensaje en la zona de información de la pestaña 2."""
     info_text_v2.insert(tk.END, message + "\n")
     info_text_v2.see(tk.END)
 
 
 def clear_log_v2():
-    """Borra el contenido de la zona de información de la pestaña 2."""
     info_text_v2.delete("1.0", tk.END)
 
 
 def show_long_distance():
-    """Muestra los vuelos de larga distancia (>2000 km)."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
-        if len(airports) == 0:
-            messagebox.showwarning(
-                "Aviso",
-                "Carga primero los aeropuertos para calcular distancias.",
+        long_distance = LongDistanceArrivals(aircrafts)
+
+        clear_log_v2()
+        log_message_v2(f"Vuelos de larga distancia (>2000 km): {len(long_distance)}")
+        log_message_v2("")
+
+        i = 0
+        while i < len(long_distance):
+            dist = long_distance[i].distance
+            log_message_v2(
+                f"{long_distance[i].id} | {long_distance[i].origin} | "
+                f"{long_distance[i].arrival_time} | {dist:.0f} km"
             )
-        else:
-            from aircraft import _load_airport_coords_from_file, _haversine_distance, LEBL_LAT, LEBL_LON
-
-            coords_dict = _load_airport_coords_from_file("Airports.txt")
-
-            if len(coords_dict) == 0:
-                messagebox.showerror("Error", "No se encontró Airports.txt con coordenadas.")
-            else:
-                long_distance = []
-                i = 0
-                while i < len(aircrafts):
-                    aircraft = aircrafts[i]
-                    origin_code = aircraft["origin"]
-                    origin_coords = coords_dict.get(origin_code)
-
-                    if origin_coords is not None:
-                        distance = _haversine_distance(
-                            LEBL_LAT, LEBL_LON, origin_coords[0], origin_coords[1]
-                        )
-                        aircraft["distance"] = distance
-
-                        if distance > 2000:
-                            long_distance.append(aircraft)
-
-                    i += 1
-
-                clear_log_v2()
-                log_message_v2(f"Vuelos de larga distancia (>2000 km): {len(long_distance)}")
-                log_message_v2("")
-
-                i = 0
-                while i < len(long_distance):
-                    dist = long_distance[i].get("distance", 0)
-                    log_message_v2(
-                        f"{long_distance[i]['id']} | {long_distance[i]['origin']} | "
-                        f"{long_distance[i]['arrival_time']} | {dist:.0f} km"
-                    )
-                    i += 1
+            i += 1
 
 
 def plot_airlines_interface():
-    """Muestra el gráfico de vuelos por compañía."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
-        airline_data = PlotAirlines(aircrafts)
+        global airline_full_data
+        global airline_vars
 
-        if airline_data:
-            airlines_axes.clear()
-            airlines = list(airline_data.keys())
-            counts = list(airline_data.values())
+        airline_full_data = PlotAirlines(aircrafts)
 
-            airlines_axes.bar(airlines, counts, color="#4a90a4")
-            airlines_axes.set_xlabel("Airline")
-            airlines_axes.set_ylabel("Number of flights")
-            airlines_axes.set_title("Flights per airline")
-            airlines_axes.set_xticks(range(len(airlines)))
-            airlines_axes.set_xticklabels(airlines, rotation=90, ha="center", fontsize=8)
+        if airline_full_data:
+            for widget in airline_check_frame.winfo_children():
+                widget.destroy()
 
-            airlines_figure.subplots_adjust(left=0.08, right=0.97, top=0.85, bottom=0.35)
-            airlines_canvas.draw()
+            airline_vars = {}
+            for airline in sorted(airline_full_data.keys()):
+                var = tk.BooleanVar(value=True)
+                airline_vars[airline] = var
+                cb = ttk.Checkbutton(
+                    airline_check_frame,
+                    text=f"{airline} ({airline_full_data[airline]})",
+                    variable=var,
+                )
+                cb.pack(anchor=tk.W, padx=4, pady=1)
+                cb.var = var
+
+            ttk.Button(
+                airline_check_frame,
+                text="Aplicar filtro",
+                command=apply_airline_filter,
+                style="Custom.TButton",
+            ).pack(anchor=tk.W, padx=4, pady=(8, 2))
+
+            apply_airline_filter()
             clear_log_v2()
-            log_message_v2("Gráfico de compañías actualizado.")
+            log_message_v2("Grafico de companias actualizado.")
         else:
-            messagebox.showwarning("Aviso", "No se pudo dibujar el gráfico.")
+            messagebox.showwarning("Aviso", "No se pudo dibujar el grafico.")
+
+
+def apply_airline_filter():
+    global airline_vars, airline_full_data, airlines_figure, airlines_axes, airlines_canvas
+
+    if not airline_vars or not airline_full_data:
+        return
+
+    selected = [a for a, v in airline_vars.items() if v.get()]
+    n = len(selected)
+
+    airlines_axes.cla()
+
+    bottom = min(0.16 + max(0, n - 5) * 0.003, 0.30)
+
+    if selected:
+        counts = [airline_full_data[a] for a in selected]
+        airlines_axes.bar(range(n), counts, width=min(0.8, 10.0 / n), color="#4a90a4")
+        airlines_axes.set_xticks(range(n))
+        airlines_axes.set_xticklabels(selected, rotation=90, ha="center", fontsize=8)
+
+    airlines_axes.set_xlabel("Airline")
+    airlines_axes.set_ylabel("Number of flights")
+    airlines_axes.set_title("Flights per airline")
+    airlines_figure.subplots_adjust(left=0.12, right=0.97, top=0.88, bottom=bottom)
+    airlines_canvas.draw()
 
 
 def plot_flights_type_interface():
-    """Muestra el gráfico apilado Schengen vs No-Schengen."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
         data = PlotFlightsType(aircrafts)
 
@@ -1166,15 +1063,14 @@ def plot_flights_type_interface():
             flights_type_figure.subplots_adjust(left=0.12, right=0.97, top=0.88, bottom=0.16)
             flights_type_canvas.draw()
             clear_log_v2()
-            log_message_v2("Gráfico Schengen/No-Schengen actualizado.")
+            log_message_v2("Grafico Schengen/No-Schengen actualizado.")
         else:
-            messagebox.showwarning("Aviso", "No se pudo dibujar el gráfico.")
+            messagebox.showwarning("Aviso", "No se pudo dibujar el grafico.")
 
 
 def map_flights_interface():
-    """Genera el mapa KML de todos los vuelos."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
         if len(airports) == 0:
             messagebox.showwarning(
@@ -1189,20 +1085,13 @@ def map_flights_interface():
             else:
                 clear_log_v2()
                 log_message_v2(f"Archivo KML generado: {filename}")
-                try:
-                    full_path = os.path.abspath(filename)
-                    url = "file:///" + full_path.replace("\\", "/")
-                    webbrowser.open(url)
-                    log_message_v2("Abriendo en navegador...")
-                except Exception:
-                    log_message_v2("Ábrelo con Google Earth manualmente.")
+                os.startfile(filename)
                 messagebox.showinfo("Correcto", f"Archivo KML generado: {filename}")
 
 
 def map_long_distance_interface():
-    """Genera el mapa KML solo de vuelos de larga distancia."""
     if len(aircrafts) == 0:
-        messagebox.showinfo("Información", "Carga o añade vuelos primero.")
+        messagebox.showinfo("Informacion", "Carga o anade vuelos primero.")
     else:
         if len(airports) == 0:
             messagebox.showwarning(
@@ -1217,42 +1106,23 @@ def map_long_distance_interface():
             else:
                 clear_log_v2()
                 log_message_v2(f"Archivo KML de larga distancia generado: {filename}")
-                try:
-                    full_path = os.path.abspath(filename)
-                    url = "file:///" + full_path.replace("\\", "/")
-                    webbrowser.open(url)
-                    log_message_v2("Abriendo en navegador...")
-                except Exception:
-                    log_message_v2("Ábrelo con Google Earth manualmente.")
+                os.startfile(filename)
                 messagebox.showinfo("Correcto", f"Archivo KML generado: {filename}")
 
 
 def main():
-    """Punto de entrada principal del programa."""
     global root
     global code_var
     global lat_var
     global lon_var
-    global year_var
-    global capacity_var
     global autoschengen_var
-    global col_min_var
-    global col_max_var
-    global col_min_capacity
-    global col_max_capacity
 
     root = tk.Tk()
 
     code_var = tk.StringVar()
     lat_var = tk.StringVar()
     lon_var = tk.StringVar()
-    year_var = tk.StringVar()
-    capacity_var = tk.StringVar()
     autoschengen_var = tk.BooleanVar(value=True)
-    col_min_var = tk.StringVar()
-    col_max_var = tk.StringVar()
-    col_min_capacity = tk.StringVar()
-    col_max_capacity = tk.StringVar()
 
     build_interface()
     root.mainloop()

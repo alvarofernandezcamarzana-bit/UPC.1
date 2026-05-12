@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="schengen">
+      <IconStyle>
+        <color>ff33cc33</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="nonschengen">
+      <IconStyle>
+        <color>ff3366ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>BIKF</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 63.985000, Lon -22.605556</description>
+      <Point>
+        <coordinates>-22.605555555555558,63.985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CYUL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 45.468056, Lon -73.741389</description>
+      <Point>
+        <coordinates>-73.74138888888889,45.46805555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CYYZ</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 43.677222, Lon -79.630556</description>
+      <Point>
+        <coordinates>-79.63055555555555,43.67722222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DAAG</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 36.693889, Lon 3.214444</description>
+      <Point>
+        <coordinates>3.2144444444444447,36.693888888888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DTTA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 36.851111, Lon 10.226944</description>
+      <Point>
+        <coordinates>10.226944444444445,36.85111111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EBAW</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.189444, Lon 4.460278</description>
+      <Point>
+        <coordinates>4.460277777777778,51.18944444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EBBR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.901389, Lon 4.484444</description>
+      <Point>
+        <coordinates>4.484444444444445,50.90138888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EBOS</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.198889, Lon 2.862222</description>
+      <Point>
+        <coordinates>2.8622222222222224,51.19888888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDB</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 52.362222, Lon 13.500556</description>
+      <Point>
+        <coordinates>13.500555555555556,52.36222222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDF</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.033333, Lon 8.570556</description>
+      <Point>
+        <coordinates>8.570555555555556,50.03333333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 53.630278, Lon 9.988333</description>
+      <Point>
+        <coordinates>9.988333333333333,53.63027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.865833, Lon 7.142778</description>
+      <Point>
+        <coordinates>7.142777777777778,50.865833333333335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDL</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.280833, Lon 6.757222</description>
+      <Point>
+        <coordinates>6.7572222222222225,51.280833333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDM</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.353889, Lon 11.786111</description>
+      <Point>
+        <coordinates>11.786111111111111,48.35388888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 49.498611, Lon 11.078056</description>
+      <Point>
+        <coordinates>11.078055555555554,49.49861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDP</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.423889, Lon 12.236389</description>
+      <Point>
+        <coordinates>12.236388888888888,51.42388888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDS</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.690000, Lon 9.221944</description>
+      <Point>
+        <coordinates>9.221944444444444,48.69,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDT</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 52.559722, Lon 13.287778</description>
+      <Point>
+        <coordinates>13.287777777777778,52.55972222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EDDV</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 52.460278, Lon 9.683611</description>
+      <Point>
+        <coordinates>9.68361111111111,52.46027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EETN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 59.413333, Lon 24.832500</description>
+      <Point>
+        <coordinates>24.8325,59.413333333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EFHK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 60.317222, Lon 24.963333</description>
+      <Point>
+        <coordinates>24.96333333333333,60.31722222222223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGAA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 54.657500, Lon -6.215833</description>
+      <Point>
+        <coordinates>-6.215833333333333,54.6575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGBB</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 52.453889, Lon -1.748056</description>
+      <Point>
+        <coordinates>-1.7480555555555557,52.45388888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGCC</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 53.353889, Lon -2.275000</description>
+      <Point>
+        <coordinates>-2.275,53.35388888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGFF</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.396667, Lon -3.343333</description>
+      <Point>
+        <coordinates>-3.3433333333333333,51.39666666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGGD</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.382778, Lon -2.719167</description>
+      <Point>
+        <coordinates>-2.7191666666666667,51.382777777777775,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGGP</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 53.333611, Lon -2.849722</description>
+      <Point>
+        <coordinates>-2.8497222222222223,53.33361111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGGW</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.874722, Lon -0.368333</description>
+      <Point>
+        <coordinates>-0.3683333333333333,51.874722222222225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGHI</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 50.950278, Lon -1.356667</description>
+      <Point>
+        <coordinates>-1.3566666666666667,50.95027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGKK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.148056, Lon -0.190278</description>
+      <Point>
+        <coordinates>-0.19027777777777777,51.14805555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGLL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.477500, Lon -0.461389</description>
+      <Point>
+        <coordinates>-0.4613888888888889,51.4775,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGMC</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.570278, Lon 0.693333</description>
+      <Point>
+        <coordinates>0.6933333333333334,51.57027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGNM</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 53.866111, Lon -1.660833</description>
+      <Point>
+        <coordinates>-1.6608333333333332,53.86611111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGNT</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.038056, Lon -1.689722</description>
+      <Point>
+        <coordinates>-1.6897222222222223,55.03805555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGNX</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 52.831111, Lon -1.327778</description>
+      <Point>
+        <coordinates>-1.3277777777777777,52.83111111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGPH</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.950000, Lon -3.372500</description>
+      <Point>
+        <coordinates>-3.3725,55.95,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGPK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.509444, Lon -4.594444</description>
+      <Point>
+        <coordinates>-4.594444444444444,55.50944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EGSS</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 51.885000, Lon 0.235000</description>
+      <Point>
+        <coordinates>0.23500000000000001,51.885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EHAM</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 52.308056, Lon 4.764167</description>
+      <Point>
+        <coordinates>4.764166666666667,52.308055555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EHEH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.450000, Lon 5.374444</description>
+      <Point>
+        <coordinates>5.374444444444444,51.45,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EHRD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 51.956944, Lon 4.437222</description>
+      <Point>
+        <coordinates>4.437222222222222,51.956944444444446,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EIDW</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 53.421389, Lon -6.270000</description>
+      <Point>
+        <coordinates>-6.27,53.421388888888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EKBI</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 55.740278, Lon 9.151667</description>
+      <Point>
+        <coordinates>9.151666666666667,55.74027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EKCH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 55.618056, Lon 12.656111</description>
+      <Point>
+        <coordinates>12.65611111111111,55.61805555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ELLX</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 49.623333, Lon 6.204444</description>
+      <Point>
+        <coordinates>6.204444444444444,49.623333333333335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ENBR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 60.293611, Lon 5.218056</description>
+      <Point>
+        <coordinates>5.218055555555556,60.29361111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ENGM</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 60.202778, Lon 11.083889</description>
+      <Point>
+        <coordinates>11.08388888888889,60.20277777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EPKK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.077778, Lon 19.784722</description>
+      <Point>
+        <coordinates>19.784722222222225,50.07777777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EPKT</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.474167, Lon 19.080000</description>
+      <Point>
+        <coordinates>19.08,50.47416666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EPWA</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 52.165833, Lon 20.967222</description>
+      <Point>
+        <coordinates>20.96722222222222,52.16583333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESGG</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 57.660000, Lon 12.291111</description>
+      <Point>
+        <coordinates>12.29111111111111,57.66,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESKN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 58.788611, Lon 16.903611</description>
+      <Point>
+        <coordinates>16.90361111111111,58.78861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ESSA</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 59.651944, Lon 17.918611</description>
+      <Point>
+        <coordinates>17.91861111111111,59.651944444444446,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ETNL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 53.919167, Lon 12.278333</description>
+      <Point>
+        <coordinates>12.278333333333334,53.91916666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EVRA</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 56.923611, Lon 23.971111</description>
+      <Point>
+        <coordinates>23.97111111111111,56.92361111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EYVI</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 54.636944, Lon 25.287778</description>
+      <Point>
+        <coordinates>25.28777777777778,54.636944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GCFV</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 28.452778, Lon -13.863889</description>
+      <Point>
+        <coordinates>-13.863888888888889,28.452777777777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GCLP</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 27.931944, Lon -15.386667</description>
+      <Point>
+        <coordinates>-15.386666666666667,27.931944444444447,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GCRR</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 28.945556, Lon -13.605278</description>
+      <Point>
+        <coordinates>-13.605277777777777,28.945555555555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GCXO</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 28.482778, Lon -16.341667</description>
+      <Point>
+        <coordinates>-16.341666666666665,28.482777777777777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GMFF</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 33.927222, Lon -4.977778</description>
+      <Point>
+        <coordinates>-4.977777777777778,33.92722222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GMMN</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 33.364167, Lon -7.581667</description>
+      <Point>
+        <coordinates>-7.581666666666666,33.36416666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GMMX</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 31.608611, Lon -8.040833</description>
+      <Point>
+        <coordinates>-8.040833333333333,31.608611111111113,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GMTT</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 35.731667, Lon -5.921111</description>
+      <Point>
+        <coordinates>-5.921111111111111,35.73166666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HECA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 30.111389, Lon 31.413889</description>
+      <Point>
+        <coordinates>31.413888888888888,30.11138888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HTDA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat -6.875556, Lon 39.203333</description>
+      <Point>
+        <coordinates>39.20333333333333,-6.875555555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KATL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 33.633333, Lon -84.433333</description>
+      <Point>
+        <coordinates>-84.43333333333334,33.63333333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KCLT</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 35.216667, Lon -80.950000</description>
+      <Point>
+        <coordinates>-80.95,35.21666666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KEWR</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 40.696667, Lon -74.168333</description>
+      <Point>
+        <coordinates>-74.16833333333334,40.696666666666665,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KIAD</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 38.945000, Lon -77.456667</description>
+      <Point>
+        <coordinates>-77.45666666666666,38.94499999999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KJFK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 40.640278, Lon -73.778333</description>
+      <Point>
+        <coordinates>-73.77833333333334,40.640277777777776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KMIA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 25.800000, Lon -80.283333</description>
+      <Point>
+        <coordinates>-80.28333333333333,25.8,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KPHL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 39.870000, Lon -75.245000</description>
+      <Point>
+        <coordinates>-75.245,39.87,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KUGN</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 42.421667, Lon -87.868333</description>
+      <Point>
+        <coordinates>-87.86833333333333,42.42166666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LBSF</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 42.695000, Lon 23.408333</description>
+      <Point>
+        <coordinates>23.40833333333333,42.69499999999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LCLK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 34.878889, Lon 33.630278</description>
+      <Point>
+        <coordinates>33.63027777777778,34.87888888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LDDU</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 42.561389, Lon 18.268333</description>
+      <Point>
+        <coordinates>18.26833333333333,42.561388888888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LDSP</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 43.538889, Lon 16.298056</description>
+      <Point>
+        <coordinates>16.298055555555557,43.538888888888884,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LDZA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 45.743056, Lon 16.068889</description>
+      <Point>
+        <coordinates>16.06888888888889,45.74305555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEAL</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 38.282222, Lon -0.558056</description>
+      <Point>
+        <coordinates>-0.5580555555555556,38.282222222222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEAM</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 36.843889, Lon -2.370000</description>
+      <Point>
+        <coordinates>-2.37,36.84388888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEAS</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.563611, Lon -6.034722</description>
+      <Point>
+        <coordinates>-6.034722222222222,43.56361111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEBB</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.301111, Lon -2.910556</description>
+      <Point>
+        <coordinates>-2.9105555555555553,43.301111111111105,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEBL</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.296944, Lon 2.078333</description>
+      <Point>
+        <coordinates>2.0783333333333336,41.29694444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEBZ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 38.891389, Lon -6.821389</description>
+      <Point>
+        <coordinates>-6.8213888888888885,38.89138888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LECO</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.301944, Lon -8.377222</description>
+      <Point>
+        <coordinates>-8.377222222222223,43.301944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEGE</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.900833, Lon 2.760556</description>
+      <Point>
+        <coordinates>2.7605555555555554,41.90083333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEGR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 37.188611, Lon -3.777222</description>
+      <Point>
+        <coordinates>-3.777222222222222,37.18861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEIB</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 38.872778, Lon 1.373056</description>
+      <Point>
+        <coordinates>1.3730555555555557,38.87277777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEJR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 36.744722, Lon -6.060000</description>
+      <Point>
+        <coordinates>-6.06,36.74472222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LELN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 42.588611, Lon -5.656111</description>
+      <Point>
+        <coordinates>-5.6561111111111115,42.58861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEMD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 40.472222, Lon -3.560833</description>
+      <Point>
+        <coordinates>-3.560833333333333,40.47222222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEMG</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 36.675000, Lon -4.499167</description>
+      <Point>
+        <coordinates>-4.4991666666666665,36.675,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEMH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 39.862500, Lon 4.218611</description>
+      <Point>
+        <coordinates>4.2186111111111115,39.862500000000004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEPA</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 39.551667, Lon 2.738889</description>
+      <Point>
+        <coordinates>2.738888888888889,39.55166666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LESO</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.356389, Lon -1.790556</description>
+      <Point>
+        <coordinates>-1.7905555555555555,43.35638888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEST</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 42.896389, Lon -8.415278</description>
+      <Point>
+        <coordinates>-8.415277777777778,42.896388888888886,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEVC</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 39.489444, Lon -0.481667</description>
+      <Point>
+        <coordinates>-0.4816666666666667,39.489444444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEVD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.706111, Lon -4.851944</description>
+      <Point>
+        <coordinates>-4.851944444444444,41.70611111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEVX</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 42.229167, Lon -8.627500</description>
+      <Point>
+        <coordinates>-8.627500000000001,42.22916666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEXJ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.426944, Lon -3.820000</description>
+      <Point>
+        <coordinates>-3.82,43.426944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEZL</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 37.418056, Lon -5.898889</description>
+      <Point>
+        <coordinates>-5.898888888888888,37.418055555555554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFBD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 44.828611, Lon -0.715278</description>
+      <Point>
+        <coordinates>-0.7152777777777777,44.828611111111115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFBT</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.185556, Lon -0.002778</description>
+      <Point>
+        <coordinates>-0.002777777777777778,43.18555555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFCK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.555000, Lon 2.290556</description>
+      <Point>
+        <coordinates>2.2905555555555552,43.555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFLL</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.725556, Lon 5.081111</description>
+      <Point>
+        <coordinates>5.0811111111111105,45.72555555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFMD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.546389, Lon 6.954167</description>
+      <Point>
+        <coordinates>6.954166666666667,43.546388888888885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFML</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.436667, Lon 5.215000</description>
+      <Point>
+        <coordinates>5.215,43.43666666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFMN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.665278, Lon 7.215000</description>
+      <Point>
+        <coordinates>7.215,43.665277777777774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFOB</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 49.454444, Lon 2.112778</description>
+      <Point>
+        <coordinates>2.112777777777778,49.45444444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFPG</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 49.009722, Lon 2.547778</description>
+      <Point>
+        <coordinates>2.5477777777777777,49.00972222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFPO</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.723333, Lon 2.379444</description>
+      <Point>
+        <coordinates>2.3794444444444447,48.723333333333336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFQQ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.563333, Lon 3.086944</description>
+      <Point>
+        <coordinates>3.0869444444444447,50.56333333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFRN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.071944, Lon -1.732222</description>
+      <Point>
+        <coordinates>-1.7322222222222223,48.07194444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFRS</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 47.156944, Lon -1.607778</description>
+      <Point>
+        <coordinates>-1.607777777777778,47.15694444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFSB</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 47.590000, Lon 7.529167</description>
+      <Point>
+        <coordinates>7.529166666666667,47.59,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LFST</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.541944, Lon 7.634444</description>
+      <Point>
+        <coordinates>7.634444444444444,48.54194444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGAV</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 37.936667, Lon 23.944444</description>
+      <Point>
+        <coordinates>23.944444444444446,37.93666666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGIR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 35.339722, Lon 25.180278</description>
+      <Point>
+        <coordinates>25.18027777777778,35.33972222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGKR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 39.601944, Lon 19.912222</description>
+      <Point>
+        <coordinates>19.91222222222222,39.60194444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGMK</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 37.437222, Lon 25.347222</description>
+      <Point>
+        <coordinates>25.34722222222222,37.43722222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGSR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 36.399167, Lon 25.479167</description>
+      <Point>
+        <coordinates>25.479166666666664,36.399166666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LGTS</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 40.519722, Lon 22.970833</description>
+      <Point>
+        <coordinates>22.97083333333333,40.51972222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LHBP</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 47.439444, Lon 19.261944</description>
+      <Point>
+        <coordinates>19.261944444444445,47.43944444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIBD</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.138056, Lon 16.765000</description>
+      <Point>
+        <coordinates>16.765,41.13805555555555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LICJ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 38.181944, Lon 13.099444</description>
+      <Point>
+        <coordinates>13.099444444444446,38.18194444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIEE</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 39.247222, Lon 9.056111</description>
+      <Point>
+        <coordinates>9.056111111111111,39.24722222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIEO</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 40.898611, Lon 9.517778</description>
+      <Point>
+        <coordinates>9.517777777777779,40.89861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIMC</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.630000, Lon 8.723056</description>
+      <Point>
+        <coordinates>8.723055555555556,45.63,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIME</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.668889, Lon 9.700278</description>
+      <Point>
+        <coordinates>9.700277777777776,45.66888888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIMF</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.202500, Lon 7.649444</description>
+      <Point>
+        <coordinates>7.649444444444444,45.2025,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIML</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.449444, Lon 9.278333</description>
+      <Point>
+        <coordinates>9.278333333333334,45.44944444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIPE</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 44.530833, Lon 11.296944</description>
+      <Point>
+        <coordinates>11.296944444444444,44.530833333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIPH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.650833, Lon 12.197778</description>
+      <Point>
+        <coordinates>12.197777777777778,45.65083333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIPX</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.396389, Lon 10.887778</description>
+      <Point>
+        <coordinates>10.887777777777778,45.396388888888886,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIPZ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 45.505278, Lon 12.351944</description>
+      <Point>
+        <coordinates>12.351944444444444,45.50527777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIRF</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.800278, Lon 12.238889</description>
+      <Point>
+        <coordinates>12.238888888888889,41.80027777777777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIRN</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 40.884444, Lon 14.290833</description>
+      <Point>
+        <coordinates>14.290833333333333,40.88444444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIRP</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.682778, Lon 10.395556</description>
+      <Point>
+        <coordinates>10.395555555555555,43.68277777777777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIRQ</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 43.808611, Lon 11.202778</description>
+      <Point>
+        <coordinates>11.202777777777778,43.808611111111105,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LKPR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 50.100833, Lon 14.260000</description>
+      <Point>
+        <coordinates>14.26,50.100833333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LLBG</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 32.009444, Lon 34.885556</description>
+      <Point>
+        <coordinates>34.885555555555555,32.00944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LMML</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 35.857500, Lon 14.477500</description>
+      <Point>
+        <coordinates>14.477500000000001,35.8575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LOWW</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 48.110278, Lon 16.569722</description>
+      <Point>
+        <coordinates>16.56972222222222,48.11027777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LPPR</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 41.235556, Lon -8.678056</description>
+      <Point>
+        <coordinates>-8.678055555555554,41.23555555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LPPT</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 38.774167, Lon -9.134167</description>
+      <Point>
+        <coordinates>-9.134166666666665,38.774166666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LRCL</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 46.789167, Lon 23.692222</description>
+      <Point>
+        <coordinates>23.692222222222224,46.78916666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LROP</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 44.571111, Lon 26.085000</description>
+      <Point>
+        <coordinates>26.084999999999997,44.571111111111115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LSGG</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 46.238333, Lon 6.109444</description>
+      <Point>
+        <coordinates>6.109444444444444,46.23833333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LSZG</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 47.181389, Lon 7.416389</description>
+      <Point>
+        <coordinates>7.416388888888889,47.18138888888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LSZH</name>
+      <styleUrl>#schengen</styleUrl>
+      <description>Lat 47.458056, Lon 8.548056</description>
+      <Point>
+        <coordinates>8.548055555555555,47.45805555555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LTBA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 40.976111, Lon 28.814167</description>
+      <Point>
+        <coordinates>28.81416666666667,40.976111111111116,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LTFJ</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 40.898333, Lon 29.309167</description>
+      <Point>
+        <coordinates>29.309166666666666,40.89833333333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LUKK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 46.927778, Lon 28.930833</description>
+      <Point>
+        <coordinates>28.930833333333336,46.92777777777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LWSK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 41.961667, Lon 21.621389</description>
+      <Point>
+        <coordinates>21.62138888888889,41.961666666666666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LYBE</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 44.819444, Lon 20.306944</description>
+      <Point>
+        <coordinates>20.306944444444444,44.81944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LYTV</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 42.404722, Lon 18.723333</description>
+      <Point>
+        <coordinates>18.723333333333333,42.40472222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OLBA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 33.819167, Lon 35.490000</description>
+      <Point>
+        <coordinates>35.49,33.81916666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OMAA</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 24.433333, Lon 54.650000</description>
+      <Point>
+        <coordinates>54.65,24.433333333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OMDB</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 25.249167, Lon 55.360000</description>
+      <Point>
+        <coordinates>55.36,25.249166666666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OTHH</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 25.274444, Lon 51.608333</description>
+      <Point>
+        <coordinates>51.608333333333334,25.274444444444445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAEZ</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat -34.822222, Lon -58.535833</description>
+      <Point>
+        <coordinates>-58.53583333333333,-34.82222222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SBGR</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat -23.433333, Lon -46.470000</description>
+      <Point>
+        <coordinates>-46.47,-23.433333333333334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKBO</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 4.700000, Lon -74.150000</description>
+      <Point>
+        <coordinates>-74.15,4.7,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UKBB</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 50.344722, Lon 30.893333</description>
+      <Point>
+        <coordinates>30.893333333333334,50.344722222222224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UKKK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 50.401944, Lon 30.451944</description>
+      <Point>
+        <coordinates>30.451944444444443,50.401944444444446,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ULLI</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 59.800278, Lon 30.262500</description>
+      <Point>
+        <coordinates>30.2625,59.80027777777777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>URKK</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 45.034722, Lon 39.170000</description>
+      <Point>
+        <coordinates>39.169999999999995,45.03472222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UUDD</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.408611, Lon 37.906389</description>
+      <Point>
+        <coordinates>37.906388888888884,55.40861111111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UUEE</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.972500, Lon 37.413056</description>
+      <Point>
+        <coordinates>37.41305555555555,55.972500000000004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UWKD</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 55.606944, Lon 49.280278</description>
+      <Point>
+        <coordinates>49.280277777777776,55.606944444444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WSSS</name>
+      <styleUrl>#nonschengen</styleUrl>
+      <description>Lat 1.359167, Lon 103.989167</description>
+      <Point>
+        <coordinates>103.98916666666666,1.3591666666666669,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

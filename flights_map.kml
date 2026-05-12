@@ -1,0 +1,4563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Flights to LEBL</name>
+    <Style id="schengen_line">
+      <LineStyle>
+        <color>ff33cc33</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="nonschengen_line">
+      <LineStyle>
+        <color>ff3366ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>ECMKV</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LYBE | Distance: 1528 km | Airline: VLG | Arrival: 00:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>20.306944444444444,44.81944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJGM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: VLG | Arrival: 00:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLOB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LMML | Distance: 1234 km | Airline: VLG | Arrival: 01:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>14.477500000000001,35.8575,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVC</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGTS | Distance: 1753 km | Airline: VLG | Arrival: 02:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>22.97083333333333,40.51972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DALEC</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: BCS | Arrival: 03:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N327UP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDK | Distance: 1133 km | Airline: UPS | Arrival: 03:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.142777777777778,50.865833333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGSR | Distance: 2091 km | Airline: VLG | Arrival: 03:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>25.479166666666664,36.399166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DALEN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDP | Distance: 1366 km | Airline: BCS | Arrival: 03:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.236388888888888,51.42388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGAV | Distance: 1904 km | Airline: VLG | Arrival: 03:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.944444444444446,37.93666666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N920FD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: FDX | Arrival: 03:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OEIBZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBLG | Distance: 1070 km | Airline: TAY | Arrival: 04:16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.442777777777778,50.63638888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDPG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: RYR | Arrival: 04:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLTG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: LAV | Arrival: 05:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N761AJ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KJFK | Distance: 6151 km | Airline: AAL | Arrival: 05:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-73.77833333333334,40.640277777777776,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: IBK | Arrival: 05:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKRH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LROP | Distance: 1980 km | Airline: VLG | Arrival: 05:12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>26.084999999999997,44.571111111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 05:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLYB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: AEA | Arrival: 05:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLXV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: AEA | Arrival: 05:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHXRD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: TRA | Arrival: 05:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMAI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: BIKF | Distance: 2981 km | Airline: VLG | Arrival: 05:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-22.605555555555558,63.985,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GRAJG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBOS | Distance: 1103 km | Airline: JAF | Arrival: 05:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8622222222222224,51.19888888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZWE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMC | Distance: 720 km | Airline: EZY | Arrival: 05:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.723055555555556,45.63,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFOG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: RYR | Arrival: 06:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIQE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDS | Distance: 994 km | Airline: GWI | Arrival: 06:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.221944444444444,48.69,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OOJEM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBAW | Distance: 1115 km | Airline: JAF | Arrival: 06:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.460277777777778,51.18944444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: URKK | Distance: 3010 km | Airline: VLG | Arrival: 06:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>39.169999999999995,45.03472222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALXH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LHBP | Distance: 1522 km | Airline: WZZ | Arrival: 06:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>19.261944444444445,47.43944444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZAT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFLL | Distance: 548 km | Airline: EZY | Arrival: 06:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.0811111111111105,45.72555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 06:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJYX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LECO | Distance: 888 km | Airline: VLG | Arrival: 06:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.377222222222223,43.301944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAEBP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: DLH | Arrival: 06:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OOSSW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: BEL | Arrival: 06:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VQBTN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUEE | Distance: 3017 km | Airline: ABG | Arrival: 06:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.41305555555555,55.972500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OHLZD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EFHK | Distance: 2628 km | Airline: FIN | Arrival: 06:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>24.96333333333333,60.31722222222223,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DABZA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDL | Distance: 1166 km | Airline: BER | Arrival: 06:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.7572222222222225,51.280833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N823NW</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KATL | Distance: 7361 km | Airline: DAL | Arrival: 06:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-84.43333333333334,33.63333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMAH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: VLG | Arrival: 06:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDB | Distance: 1502 km | Airline: RYR | Arrival: 06:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.500555555555556,52.36222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEAS | Distance: 712 km | Airline: VLG | Arrival: 06:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.034722222222222,43.56361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJQZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 06:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBIOK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: SWR | Arrival: 06:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: ULLI | Distance: 2822 km | Airline: VLG | Arrival: 06:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>30.2625,59.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGMK | Distance: 2039 km | Airline: VLG | Arrival: 06:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>25.34722222222222,37.43722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 06:51</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAGWT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDV | Distance: 1367 km | Airline: GWI | Arrival: 06:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.68361111111111,52.46027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJQQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: AEA | Arrival: 06:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHHSK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHEH | Distance: 1156 km | Airline: TRA | Arrival: 06:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.374444444444444,51.45,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUDD | Distance: 3028 km | Airline: VLG | Arrival: 06:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.906388888888884,55.40861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIPZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDL | Distance: 1166 km | Airline: GWI | Arrival: 06:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.7572222222222225,51.280833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUUC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 07:01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEQ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: OLBA | Distance: 3039 km | Airline: VLG | Arrival: 07:03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>35.49,33.81916666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEKL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPR | Distance: 899 km | Airline: RYR | Arrival: 07:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.678055555555554,41.23555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 07:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OELBR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: AUA | Arrival: 07:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N76054</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KEWR | Distance: 6177 km | Airline: UAL | Arrival: 07:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-74.16833333333334,40.696666666666665,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFIY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: RYR | Arrival: 07:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMFM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 07:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>9VSWD</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: SBGR | Distance: 8765 km | Airline: SIA | Arrival: 07:16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-46.47,-23.433333333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FGTAZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: AFR | Arrival: 07:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OYKBP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EKCH | Distance: 1768 km | Airline: SAS | Arrival: 07:22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.65611111111111,55.61805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 07:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAGWI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDK | Distance: 1133 km | Airline: GWI | Arrival: 07:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.142777777777778,50.865833333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLLJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 07:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LESO | Distance: 392 km | Airline: VLG | Arrival: 07:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7905555555555555,43.35638888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIDL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 07:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: VLG | Arrival: 07:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFRF</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: RYR | Arrival: 07:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GZBAI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: MON | Arrival: 07:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCJNZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTBA | Distance: 2230 km | Airline: THY | Arrival: 07:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>28.81416666666667,40.976111111111116,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZDU</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDB | Distance: 1502 km | Airline: EZY | Arrival: 07:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.500555555555556,52.36222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>B5913</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: CCA | Arrival: 07:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OELED</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: NLY | Arrival: 07:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GZBAH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGBB | Distance: 1274 km | Airline: MON | Arrival: 07:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7480555555555557,52.45388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: VLG | Arrival: 07:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLML</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 07:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIME | Distance: 783 km | Airline: RYR | Arrival: 07:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.700277777777776,45.66888888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZTG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGD | Distance: 1180 km | Airline: EZY | Arrival: 07:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.7191666666666667,51.382777777777775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 07:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZUM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: EZY | Arrival: 07:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDEJ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: EIN | Arrival: 07:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFRS | Distance: 715 km | Airline: VLG | Arrival: 07:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.607777777777778,47.15694444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CGHLQ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: CYUL | Distance: 5912 km | Airline: ROU | Arrival: 08:01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-73.74138888888889,45.46805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 08:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSDXZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFST | Distance: 916 km | Airline: NJE | Arrival: 08:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.634444444444444,48.54194444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZPC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGP | Distance: 1388 km | Airline: EZY | Arrival: 08:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.8497222222222223,53.33361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHBXF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: KLM | Arrival: 08:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEBK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: RYR | Arrival: 08:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVC</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEGR | Distance: 680 km | Airline: VLG | Arrival: 08:16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.777222222222222,37.18861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDPM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGPH | Distance: 1677 km | Airline: RYR | Arrival: 08:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.3725,55.95,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UWKD | Distance: 3736 km | Airline: VLG | Arrival: 08:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>49.280277777777776,55.606944444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: DAAG | Distance: 521 km | Airline: VLG | Arrival: 08:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.2144444444444447,36.693888888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZBD</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGAA | Distance: 1606 km | Airline: EZY | Arrival: 08:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.215833333333333,54.6575,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: VLG | Arrival: 08:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEFW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEST | Distance: 884 km | Airline: RYR | Arrival: 08:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.415277777777778,42.896388888888886,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGBB | Distance: 1274 km | Airline: RYR | Arrival: 08:31</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7480555555555557,52.45388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLOB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFMN | Distance: 496 km | Airline: VLG | Arrival: 08:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.215,43.665277777777774,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDWK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: RYR | Arrival: 08:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>YRBGI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LROP | Distance: 1980 km | Airline: ROT | Arrival: 08:40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>26.084999999999997,44.571111111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFOB | Distance: 907 km | Airline: RYR | Arrival: 08:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.112777777777778,49.45444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>YRBAP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LROP | Distance: 1980 km | Airline: BMS | Arrival: 08:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>26.084999999999997,44.571111111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUT</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LLBG | Distance: 3081 km | Airline: AEA | Arrival: 08:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>34.885555555555555,32.00944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUUO</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 08:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N790AN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KMIA | Distance: 7544 km | Airline: AAL | Arrival: 08:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-80.28333333333333,25.8,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZWN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 08:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SXDGQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGAV | Distance: 1904 km | Airline: AEE | Arrival: 08:51</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.944444444444446,37.93666666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMMU</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCLP | Distance: 2175 km | Airline: VLG | Arrival: 08:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-15.386666666666667,27.931944444444447,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNRNO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: SAS | Arrival: 08:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHUH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 08:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>IBIXR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: AZA | Arrival: 09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKMI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 09:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GOZBE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: MON | Arrival: 09:03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SPLND</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EPWA | Distance: 1869 km | Airline: LOT | Arrival: 09:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>20.96722222222222,52.16583333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: RYR | Arrival: 09:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N290AY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KPHL | Distance: 6301 km | Airline: AAL | Arrival: 09:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-75.245,39.87,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VQBHK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUEE | Distance: 3017 km | Airline: AFL | Arrival: 09:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.41305555555555,55.972500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKLT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: VLG | Arrival: 09:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMMH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCXO | Distance: 2195 km | Airline: VLG | Arrival: 09:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-16.341666666666665,28.482777777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 09:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLXV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: AEA | Arrival: 09:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VPBWG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: ULLI | Distance: 2822 km | Airline: SDM | Arrival: 09:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>30.2625,59.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LDZA | Distance: 1229 km | Airline: VLG | Arrival: 09:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.06888888888889,45.74305555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIDF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: DLH | Arrival: 09:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDCJ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGSS | Distance: 1186 km | Airline: RYR | Arrival: 09:22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.23500000000000001,51.885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: VLG | Arrival: 09:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVX | Distance: 894 km | Airline: VLG | Arrival: 09:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.627500000000001,42.22916666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNNGP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: NAX | Arrival: 09:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMIQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRQ | Distance: 797 km | Airline: VLG | Arrival: 09:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.202777777777778,43.808611111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZBI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGW | Distance: 1191 km | Airline: EZY | Arrival: 09:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3683333333333333,51.874722222222225,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPZ | Distance: 951 km | Airline: VLG | Arrival: 09:31</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.351944444444444,45.50527777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: VLG | Arrival: 09:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GCELG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: EXS | Arrival: 09:35</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZTA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFSB | Distance: 822 km | Airline: EZY | Arrival: 09:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.529166666666667,47.59,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 09:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N900JG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LLBG | Distance: 3081 km | Airline: ZZZ | Arrival: 09:40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>34.885555555555555,32.00944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNDYW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EKCH | Distance: 1768 km | Airline: NAX | Arrival: 09:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.65611111111111,55.61805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZAT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFBD | Distance: 454 km | Airline: EZY | Arrival: 09:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.7152777777777777,44.828611111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPE | Distance: 831 km | Airline: RYR | Arrival: 09:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.296944444444444,44.530833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CFIYE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: CYYZ | Distance: 6418 km | Airline: ROU | Arrival: 09:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-79.63055555555555,43.67722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LDSP | Distance: 1192 km | Airline: VLG | Arrival: 09:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.298055555555557,43.538888888888884,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKRH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 09:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBJYI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: EZS | Arrival: 09:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LLBG | Distance: 3081 km | Airline: VLG | Arrival: 09:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>34.885555555555555,32.00944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: VLG | Arrival: 09:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CNRGG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMMN | Distance: 1227 km | Airline: RAM | Arrival: 09:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-7.581666666666666,33.36416666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJR</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGW | Distance: 1191 km | Airline: VLG | Arrival: 10:01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3683333333333333,51.874722222222225,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TSIMV</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: DTTA | Distance: 859 km | Airline: TAR | Arrival: 10:03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>10.226944444444445,36.85111111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: VLG | Arrival: 10:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FF333</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFCK | Distance: 252 km | Airline: FAF | Arrival: 10:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.2905555555555552,43.555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GGDFK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNM | Distance: 1425 km | Airline: EXS | Arrival: 10:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6608333333333332,53.86611111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDP | Distance: 1366 km | Airline: VLG | Arrival: 10:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.236388888888888,51.42388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 10:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N803NW</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KJFK | Distance: 6151 km | Airline: DAL | Arrival: 10:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-73.77833333333334,40.640277777777776,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUYC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 10:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N283AY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KCLT | Distance: 6998 km | Airline: AAL | Arrival: 10:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-80.95,35.21666666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: VLG | Arrival: 10:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: VLG | Arrival: 10:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIIMU</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIML | Distance: 742 km | Airline: AZA | Arrival: 10:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.278333333333334,45.44944444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHUI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 10:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: VLG | Arrival: 10:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZWZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 10:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 10:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHBXP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: KLM | Arrival: 10:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJGM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: VLG | Arrival: 10:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CFDAT</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: CYUL | Distance: 5912 km | Airline: TSC | Arrival: 10:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-73.74138888888889,45.46805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDH | Distance: 1492 km | Airline: RYR | Arrival: 10:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.988333333333333,53.63027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: IBK | Arrival: 10:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHQI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: VLG | Arrival: 10:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CGTSW</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: CYYZ | Distance: 6418 km | Airline: TSC | Arrival: 10:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-79.63055555555555,43.67722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZO</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: VLG | Arrival: 10:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N76062</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: KIAD | Distance: 6517 km | Airline: UAL | Arrival: 10:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-77.45666666666666,38.94499999999999,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FA123</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: FHA | Arrival: 10:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>URPSS</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UKBB | Distance: 2429 km | Airline: AUI | Arrival: 10:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>30.893333333333334,50.344722222222224,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>4XELD</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LLBG | Distance: 3081 km | Airline: ELY | Arrival: 10:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>34.885555555555555,32.00944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEBA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNX | Distance: 1308 km | Airline: RYR | Arrival: 10:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.3277777777777777,52.83111111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFQQ | Distance: 1033 km | Airline: VLG | Arrival: 10:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0869444444444447,50.56333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 10:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHXRX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHEH | Distance: 1156 km | Airline: TRA | Arrival: 10:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.374444444444444,51.45,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCJVM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTFJ | Distance: 2272 km | Airline: THY | Arrival: 10:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>29.309166666666666,40.89833333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LKPR | Distance: 1358 km | Airline: VLG | Arrival: 11:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>14.26,50.100833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>URPSO</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UKBB | Distance: 2429 km | Airline: AUI | Arrival: 11:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>30.893333333333334,50.344722222222224,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGBB | Distance: 1274 km | Airline: VLG | Arrival: 11:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7480555555555557,52.45388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLML</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 11:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 11:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>A7AEC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: OTHH | Distance: 4861 km | Airline: QTR | Arrival: 11:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>51.608333333333334,25.274444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNDYB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ESGG | Distance: 1958 km | Airline: NAX | Arrival: 11:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.29111111111111,57.66,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>A6EOP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: OMDB | Distance: 5175 km | Airline: UAE | Arrival: 11:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>55.36,25.249166666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAKNQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDT | Distance: 1510 km | Airline: GWI | Arrival: 11:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.287777777777778,52.55972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAGWE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDH | Distance: 1492 km | Airline: GWI | Arrival: 11:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.988333333333333,53.63027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DCARO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVC | Distance: 296 km | Airline: DCA | Arrival: 11:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4816666666666667,39.489444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OKNEN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LKPR | Distance: 1358 km | Airline: CSA | Arrival: 11:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>14.26,50.100833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LXLQB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ELLX | Distance: 980 km | Airline: LGL | Arrival: 11:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.204444444444444,49.623333333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENL</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMMX | Distance: 1405 km | Airline: RYR | Arrival: 11:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.040833333333333,31.608611111111113,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCJHZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTBA | Distance: 2230 km | Airline: THY | Arrival: 11:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>28.81416666666667,40.976111111111116,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFRH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: RYR | Arrival: 11:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZUM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFMN | Distance: 496 km | Airline: EZY | Arrival: 11:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.215,43.665277777777774,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 11:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EYVI | Distance: 2258 km | Airline: RYR | Arrival: 11:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>25.28777777777778,54.636944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCCPG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTFJ | Distance: 2272 km | Airline: PGT | Arrival: 11:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>29.309166666666666,40.89833333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEAM | Distance: 627 km | Airline: VLG | Arrival: 12:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.37,36.84388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECIXD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 12:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMC | Distance: 720 km | Airline: VLG | Arrival: 12:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.723055555555556,45.63,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SUGCE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: HECA | Distance: 2907 km | Airline: MSR | Arrival: 12:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>31.413888888888888,30.11138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SXABE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFRN | Distance: 811 km | Airline: VLG | Arrival: 12:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7322222222222223,48.07194444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBIOM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: SWR | Arrival: 12:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUUY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 12:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMFF | Distance: 1028 km | Airline: VLG | Arrival: 12:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.977777777777778,33.92722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLTG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: ETNL | Distance: 1594 km | Airline: LAV | Arrival: 12:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.278333333333334,53.91916666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIRA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: DLH | Arrival: 12:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJYX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: VLG | Arrival: 12:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMF | Distance: 626 km | Airline: VLG | Arrival: 12:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.649444444444444,45.2025,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZPL</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 12:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDB | Distance: 1502 km | Airline: IBK | Arrival: 12:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.500555555555556,52.36222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHXRD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: TRA | Arrival: 12:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLXV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: AEA | Arrival: 12:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLOB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMG | Distance: 766 km | Airline: VLG | Arrival: 12:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.4991666666666665,36.675,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: VLG | Arrival: 12:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OOSSW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: BEL | Arrival: 12:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUYB</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: BAW | Arrival: 13:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 13:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N969AV</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: SKBO | Distance: 8514 km | Airline: AVA | Arrival: 13:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-74.15,4.7,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>A6AIN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: ROJ | Arrival: 13:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFIY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: RYR | Arrival: 13:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHUH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 13:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHOB</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LYTV | Distance: 1382 km | Airline: EXU | Arrival: 13:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>18.723333333333333,42.40472222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMF | Distance: 626 km | Airline: RYR | Arrival: 13:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.649444444444444,45.2025,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 13:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMG | Distance: 766 km | Airline: RYR | Arrival: 13:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.4991666666666665,36.675,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDWK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPH | Distance: 948 km | Airline: RYR | Arrival: 13:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.197777777777778,45.65083333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFSB | Distance: 822 km | Airline: VLG | Arrival: 13:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.529166666666667,47.59,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 13:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENBR | Distance: 2123 km | Airline: IBK | Arrival: 13:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.218055555555556,60.29361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLST</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: AEA | Arrival: 13:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EK111</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZG | Distance: 780 km | Airline: HBV | Arrival: 13:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.416388888888889,47.18138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EPWA | Distance: 1869 km | Airline: VLG | Arrival: 13:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>20.96722222222222,52.16583333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGSS | Distance: 1186 km | Airline: RYR | Arrival: 13:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.23500000000000001,51.885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ESSA | Distance: 2315 km | Airline: IBK | Arrival: 13:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>17.91861111111111,59.651944444444446,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 13:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 13:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDCJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIME | Distance: 783 km | Airline: RYR | Arrival: 13:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.700277777777776,45.66888888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OYRUP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCXO | Distance: 2195 km | Airline: IBK | Arrival: 13:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-16.341666666666665,28.482777777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECIVJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: EXU | Arrival: 14:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEFW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: RYR | Arrival: 14:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LVCSX</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: SAEZ | Distance: 10481 km | Airline: ARG | Arrival: 14:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-58.53583333333333,-34.82222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHBXG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: KLM | Arrival: 14:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LYVEO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEST | Distance: 884 km | Airline: VLG | Arrival: 14:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.415277777777778,42.896388888888886,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBZ | Distance: 803 km | Airline: ANE | Arrival: 14:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.8213888888888885,38.89138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VQBBG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUEE | Distance: 3017 km | Airline: AFL | Arrival: 14:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.41305555555555,55.972500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PTMSV</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: SBGR | Distance: 8765 km | Airline: TAM | Arrival: 14:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-46.47,-23.433333333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBJYL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: EZS | Arrival: 14:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJPF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: AEA | Arrival: 14:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: IBK | Arrival: 14:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBJXE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFSB | Distance: 822 km | Airline: EZS | Arrival: 14:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.529166666666667,47.59,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CNNMH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMMN | Distance: 1227 km | Airline: MAC | Arrival: 14:35</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-7.581666666666666,33.36416666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLML</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 14:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJNI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 14:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ELLX | Distance: 980 km | Airline: VLG | Arrival: 14:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.204444444444444,49.623333333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJGM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: VLG | Arrival: 14:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEJR | Distance: 866 km | Airline: VLG | Arrival: 14:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.06,36.74472222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EFHK | Distance: 2628 km | Airline: IBK | Arrival: 14:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>24.96333333333333,60.31722222222223,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDN | Distance: 1149 km | Airline: VLG | Arrival: 14:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.078055555555554,49.49861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHEH | Distance: 1156 km | Airline: VLG | Arrival: 14:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.374444444444444,51.45,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDS | Distance: 994 km | Airline: VLG | Arrival: 14:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.221944444444444,48.69,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCJIP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTBA | Distance: 2230 km | Airline: THY | Arrival: 14:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>28.81416666666667,40.976111111111116,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCDCF</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTFJ | Distance: 2272 km | Airline: PGT | Arrival: 15:01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>29.309166666666666,40.89833333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNT | Distance: 1553 km | Airline: VLG | Arrival: 15:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6897222222222223,55.03805555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>IBIXS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: AZA | Arrival: 15:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VPBAS</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUDD | Distance: 3028 km | Airline: KTK | Arrival: 15:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.906388888888884,55.40861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 15:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJFF</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCFV | Distance: 2032 km | Airline: VLG | Arrival: 15:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-13.863888888888889,28.452777777777776,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNRRG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: SAS | Arrival: 15:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: VLG | Arrival: 15:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEGR | Distance: 680 km | Airline: VLG | Arrival: 15:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.777222222222222,37.18861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 15:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 15:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N483CM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LDDU | Distance: 1344 km | Airline: ZZZ | Arrival: 15:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>18.26833333333333,42.561388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FHEPB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: AFR | Arrival: 15:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGP | Distance: 1388 km | Airline: VLG | Arrival: 15:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.8497222222222223,53.33361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEAL | Distance: 404 km | Airline: VLG | Arrival: 15:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5580555555555556,38.282222222222224,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DIERF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDN | Distance: 1149 km | Airline: DIE | Arrival: 15:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.078055555555554,49.49861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIRD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: DLH | Arrival: 15:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJFN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 15:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBIOH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: SWR | Arrival: 15:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKCU</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: VLG | Arrival: 15:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: RYR | Arrival: 15:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: VLG | Arrival: 15:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GTTOE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 15:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLAA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDH | Distance: 1492 km | Airline: VLG | Arrival: 15:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.988333333333333,53.63027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEPG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGP | Distance: 1388 km | Airline: RYR | Arrival: 15:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.8497222222222223,53.33361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDV | Distance: 1367 km | Airline: VLG | Arrival: 15:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.68361111111111,52.46027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHHA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 15:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLXV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: AEA | Arrival: 16:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CNRGG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMMN | Distance: 1227 km | Airline: RAM | Arrival: 16:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-7.581666666666666,33.36416666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIDQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 16:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZWZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: EZY | Arrival: 16:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: VLG | Arrival: 16:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SXABE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFBD | Distance: 454 km | Airline: VLG | Arrival: 16:12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.7152777777777777,44.828611111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: VLG | Arrival: 16:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZTA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 16:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPZ | Distance: 951 km | Airline: VLG | Arrival: 16:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.351944444444444,45.50527777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LICJ | Distance: 1003 km | Airline: VLG | Arrival: 16:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.099444444444446,38.18194444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHQI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIBD | Distance: 1227 km | Airline: VLG | Arrival: 16:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.765,41.13805555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHQJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: VLG | Arrival: 16:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMAI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 16:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: VLG | Arrival: 16:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FGUGO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: AFR | Arrival: 16:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRN | Distance: 1023 km | Airline: VLG | Arrival: 16:31</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>14.290833333333333,40.88444444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFML | Distance: 350 km | Airline: VLG | Arrival: 16:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.215,43.43666666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKRN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMMX | Distance: 1405 km | Airline: EXU | Arrival: 16:35</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.040833333333333,31.608611111111113,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: RYR | Arrival: 16:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZUM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: EZY | Arrival: 16:40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: VLG | Arrival: 16:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECIXD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 16:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: VLG | Arrival: 16:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHBXE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: KLM | Arrival: 16:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGFF | Distance: 1197 km | Airline: VLG | Arrival: 16:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.3433333333333333,51.39666666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 16:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJYX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEXJ | Distance: 540 km | Airline: VLG | Arrival: 17:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.82,43.426944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFIY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVD | Distance: 579 km | Airline: RYR | Arrival: 17:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.851944444444444,41.70611111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAICG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDS | Distance: 994 km | Airline: GWI | Arrival: 17:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.221944444444444,48.69,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTPA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 17:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDWK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: RYR | Arrival: 17:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GOZBW</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNM | Distance: 1425 km | Airline: MON | Arrival: 17:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6608333333333332,53.86611111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMMH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCXO | Distance: 2195 km | Airline: VLG | Arrival: 17:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-16.341666666666665,28.482777777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHX</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGSS | Distance: 1186 km | Airline: RYR | Arrival: 17:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.23500000000000001,51.885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ESKN | Distance: 2203 km | Airline: RYR | Arrival: 17:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.90361111111111,58.78861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHS</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCRR | Distance: 1974 km | Airline: VLG | Arrival: 17:18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-13.605277777777777,28.945555555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 17:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALPX</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LRCL | Distance: 1825 km | Airline: WZZ | Arrival: 17:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.692222222222224,46.78916666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALWY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EVRA | Distance: 2337 km | Airline: WZZ | Arrival: 17:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.97111111111111,56.92361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJFT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: HSY | Arrival: 17:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LNDYP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ESSA | Distance: 2315 km | Airline: NAX | Arrival: 17:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>17.91861111111111,59.651944444444446,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DABZA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDL | Distance: 1166 km | Airline: BER | Arrival: 17:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.7572222222222225,51.280833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZIM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDB | Distance: 1502 km | Airline: EZY | Arrival: 17:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.500555555555556,52.36222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDT | Distance: 1510 km | Airline: VLG | Arrival: 17:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.287777777777778,52.55972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIQK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDK | Distance: 1133 km | Airline: GWI | Arrival: 17:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.142777777777778,50.865833333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNM | Distance: 1425 km | Airline: VLG | Arrival: 17:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6608333333333332,53.86611111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMFB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: VLG | Arrival: 17:35</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 17:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DASXJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDL | Distance: 1166 km | Airline: EWG | Arrival: 17:38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.7572222222222225,51.280833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMMU</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCLP | Distance: 2175 km | Airline: VLG | Arrival: 17:40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-15.386666666666667,27.931944444444447,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUT</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCXO | Distance: 2195 km | Airline: AEA | Arrival: 17:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-16.341666666666665,28.482777777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBIOM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: SWR | Arrival: 17:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMC | Distance: 720 km | Airline: VLG | Arrival: 17:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.723055555555556,45.63,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FGRXE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: AFR | Arrival: 17:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUUT</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 17:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: VLG | Arrival: 17:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LYVEV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 17:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 17:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>9HVMK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPZ | Distance: 951 km | Airline: LWG | Arrival: 17:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.351944444444444,45.50527777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LESO | Distance: 392 km | Airline: VLG | Arrival: 17:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.7905555555555555,43.35638888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CGDEJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHRD | Distance: 1199 km | Airline: TRA | Arrival: 17:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.437222222222222,51.956944444444446,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHUH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 18:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLLM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 18:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OEIEW</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: EWG | Arrival: 18:03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLLJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 18:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEFN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: RYR | Arrival: 18:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZEG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 18:10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDCM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: RYR | Arrival: 18:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>A7ACD</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: OTHH | Distance: 4861 km | Airline: QTR | Arrival: 18:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>51.608333333333334,25.274444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>7TVJM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: DAAG | Distance: 521 km | Airline: DAH | Arrival: 18:14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.2144444444444447,36.693888888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVX | Distance: 894 km | Airline: RYR | Arrival: 18:16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.627500000000001,42.22916666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBJYK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: EZS | Arrival: 18:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALYG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EPKT | Distance: 1658 km | Airline: WZZ | Arrival: 18:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>19.08,50.47416666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZBU</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGMC | Distance: 1147 km | Airline: EZY | Arrival: 18:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6933333333333334,51.57027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OHLZB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EFHK | Distance: 2628 km | Airline: FIN | Arrival: 18:22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>24.96333333333333,60.31722222222223,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUYC</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 18:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBJYE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFSB | Distance: 822 km | Airline: EZS | Arrival: 18:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.529166666666667,47.59,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 18:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>A6EEH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: OMDB | Distance: 5175 km | Airline: UAE | Arrival: 18:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>55.36,25.249166666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OELEF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LOWW | Distance: 1369 km | Airline: NLY | Arrival: 18:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>16.56972222222222,48.11027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OOSSK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: BEL | Arrival: 18:35</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLML</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFLL | Distance: 548 km | Airline: VLG | Arrival: 18:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.0811111111111105,45.72555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEFI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: RYR | Arrival: 18:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBIJQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSGG | Distance: 637 km | Airline: SWR | Arrival: 18:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.109444444444444,46.23833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZFY</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGNT | Distance: 1553 km | Airline: EZY | Arrival: 18:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6897222222222223,55.03805555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTRN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ESSA | Distance: 2315 km | Airline: VLG | Arrival: 18:46</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>17.91861111111111,59.651944444444446,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: RYR | Arrival: 18:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FGZHY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: TVF | Arrival: 18:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCRR | Distance: 1974 km | Airline: RYR | Arrival: 18:51</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-13.605277777777777,28.945555555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJBX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: SWT | Arrival: 18:54</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMG | Distance: 766 km | Airline: VLG | Arrival: 18:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.4991666666666665,36.675,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALYL</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LWSK | Distance: 1622 km | Airline: WZZ | Arrival: 18:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>21.62138888888889,41.961666666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDWA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGPK | Distance: 1654 km | Airline: RYR | Arrival: 18:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.594444444444444,55.50944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJPK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: GES | Arrival: 19:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLST</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: AEA | Arrival: 19:03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLOB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: VLG | Arrival: 19:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVD | Distance: 579 km | Airline: VLG | Arrival: 19:07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.851944444444444,41.70611111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZFG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGP | Distance: 1388 km | Airline: EZY | Arrival: 19:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.8497222222222223,53.33361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDLH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCLP | Distance: 2175 km | Airline: RYR | Arrival: 19:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-15.386666666666667,27.931944444444447,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJGM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: VLG | Arrival: 19:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 19:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HALYO</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LBSF | Distance: 1764 km | Airline: WZZ | Arrival: 19:16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.40833333333333,42.69499999999999,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EKCH | Distance: 1768 km | Airline: VLG | Arrival: 19:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.65611111111111,55.61805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N900AL</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: HTDA | Distance: 6555 km | Airline: ZZZ | Arrival: 19:20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>39.20333333333333,-6.875555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAIRB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: DLH | Arrival: 19:22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZIZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMC | Distance: 720 km | Airline: EZY | Arrival: 19:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.723055555555556,45.63,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EFHK | Distance: 2628 km | Airline: VLG | Arrival: 19:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>24.96333333333333,60.31722222222223,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFIN</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: RYR | Arrival: 19:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LELN | Distance: 656 km | Airline: ANE | Arrival: 19:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.6561111111111115,42.58861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEAS | Distance: 712 km | Airline: VLG | Arrival: 19:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.034722222222222,43.56361111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKHN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 19:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPE | Distance: 831 km | Airline: RYR | Arrival: 19:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.296944444444444,44.530833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GDBCI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: BAW | Arrival: 19:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFHS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: IBK | Arrival: 19:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZIK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGD | Distance: 1180 km | Airline: EZY | Arrival: 19:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.7191666666666667,51.382777777777775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 19:40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEJR | Distance: 866 km | Airline: RYR | Arrival: 19:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.06,36.74472222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLXV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: AEA | Arrival: 19:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLGV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: EXU | Arrival: 19:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LYVEO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: VLG | Arrival: 19:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>N327UP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVC | Distance: 296 km | Airline: UPS | Arrival: 19:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4816666666666667,39.489444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDLC</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPR | Distance: 899 km | Airline: RYR | Arrival: 19:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.678055555555554,41.23555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TFBRO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: BIKF | Distance: 2981 km | Airline: WOW | Arrival: 19:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-22.605555555555558,63.985,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDPG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: RYR | Arrival: 19:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJFN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: IBE | Arrival: 19:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQL</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: VLG | Arrival: 19:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDEE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: EIN | Arrival: 19:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: VLG | Arrival: 19:59</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: VLG | Arrival: 20:01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CNNMH</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GMTT | Distance: 931 km | Airline: MAC | Arrival: 20:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.921111111111111,35.73166666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPR | Distance: 899 km | Airline: VLG | Arrival: 20:05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.678055555555554,41.23555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEBB | Distance: 467 km | Airline: VLG | Arrival: 20:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.9105555555555553,43.301111111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ERAXP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LUKK | Distance: 2221 km | Airline: MLD | Arrival: 20:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>28.930833333333336,46.92777777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 20:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EKBI | Distance: 1686 km | Airline: IBK | Arrival: 20:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.151666666666667,55.74027777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKMI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: VLG | Arrival: 20:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZUM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFLL | Distance: 548 km | Airline: EZY | Arrival: 20:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>5.0811111111111105,45.72555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>HBION</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: SWR | Arrival: 20:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZF</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEAL | Distance: 404 km | Airline: VLG | Arrival: 20:29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5580555555555556,38.282222222222224,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCICT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: TKJ | Arrival: 20:31</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLAA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEST | Distance: 884 km | Airline: VLG | Arrival: 20:32</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.415277777777778,42.896388888888886,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: IBK | Arrival: 20:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>YRBGA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LROP | Distance: 1980 km | Airline: ROT | Arrival: 20:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>26.084999999999997,44.571111111111115,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TCJRF</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LTBA | Distance: 2230 km | Airline: THY | Arrival: 20:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>28.81416666666667,40.976111111111116,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DCALL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIEE | Distance: 634 km | Airline: AHO | Arrival: 20:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.056111111111111,39.24722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDM | Distance: 1094 km | Airline: VLG | Arrival: 20:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.786111111111111,48.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKCU</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: VLG | Arrival: 20:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAM</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: RYR | Arrival: 20:44</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMIR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRQ | Distance: 797 km | Airline: VLG | Arrival: 20:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.202777777777778,43.808611111111105,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>PHBXK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: KLM | Arrival: 20:48</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIENO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LHBP | Distance: 1522 km | Airline: RYR | Arrival: 20:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>19.261944444444445,47.43944444444444,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEUUG</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGLL | Distance: 1148 km | Airline: BAW | Arrival: 20:51</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4613888888888889,51.4775,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHHA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LSZH | Distance: 856 km | Airline: VLG | Arrival: 20:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.548055555555555,47.45805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMHB</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: VLG | Arrival: 20:53</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMFL</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 20:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVP</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMD | Distance: 483 km | Airline: VLG | Arrival: 20:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.560833333333333,40.47222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLUT</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: AEA | Arrival: 21:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJFF</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: LDDU | Distance: 1344 km | Airline: VLG | Arrival: 21:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>18.26833333333333,42.561388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMG | Distance: 766 km | Airline: VLG | Arrival: 21:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-4.4991666666666665,36.675,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>FGKXR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: AFR | Arrival: 21:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 21:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>DAISG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDF | Distance: 1093 km | Airline: DLH | Arrival: 21:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.570555555555556,50.03333333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEIB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: AZA | Arrival: 21:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: ENGM | Distance: 2191 km | Airline: IBK | Arrival: 21:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.08388888888889,60.20277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIEPG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFOB | Distance: 907 km | Airline: RYR | Arrival: 21:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.112777777777778,49.45444444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDL | Distance: 1166 km | Airline: VLG | Arrival: 21:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>6.7572222222222225,51.280833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VPBZA</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUEE | Distance: 3017 km | Airline: AFL | Arrival: 21:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.41305555555555,55.972500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFJM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EKCH | Distance: 1768 km | Airline: IBK | Arrival: 21:23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.65611111111111,55.61805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LKPR | Distance: 1358 km | Airline: VLG | Arrival: 21:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>14.26,50.100833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLQK</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EIDW | Distance: 1485 km | Airline: VLG | Arrival: 21:27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.27,53.421388888888885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIEO | Distance: 624 km | Airline: ORO | Arrival: 21:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.517777777777779,40.89861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHTD</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 21:33</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLML</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 21:36</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGE</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGW | Distance: 1191 km | Airline: VLG | Arrival: 21:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3683333333333333,51.874722222222225,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEGR | Distance: 680 km | Airline: VLG | Arrival: 21:41</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.777222222222222,37.18861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIME | Distance: 783 km | Airline: RYR | Arrival: 21:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.700277777777776,45.66888888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLRM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPE | Distance: 831 km | Airline: VLG | Arrival: 21:45</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.296944444444444,44.530833333333334,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHFK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: SWT | Arrival: 21:51</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDAE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: RYR | Arrival: 21:55</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>CSTTS</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: TAP | Arrival: 21:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIFIY</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPH | Distance: 948 km | Airline: RYR | Arrival: 21:58</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.197777777777778,45.65083333333333,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDCJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDB | Distance: 1502 km | Airline: RYR | Arrival: 22:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>13.500555555555556,52.36222222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LECO | Distance: 888 km | Airline: VLG | Arrival: 22:02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.377222222222223,43.301944444444445,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLVB</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPT | Distance: 995 km | Airline: VLG | Arrival: 22:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-9.134166666666665,38.774166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SXABE</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EBBR | Distance: 1084 km | Airline: VLG | Arrival: 22:06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.484444444444445,50.90138888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEQ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPO | Distance: 826 km | Airline: VLG | Arrival: 22:08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794444444444447,48.723333333333336,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDWK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRF | Distance: 846 km | Airline: RYR | Arrival: 22:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.238888888888889,41.80027777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMJR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIMC | Distance: 720 km | Airline: VLG | Arrival: 22:11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>8.723055555555556,45.63,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMFK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 22:13</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLM</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEVX | Distance: 894 km | Airline: VLG | Arrival: 22:15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.627500000000001,42.22916666666667,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>VPBRI</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: UUDD | Distance: 3028 km | Airline: AUL | Arrival: 22:17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>37.906388888888884,55.40861111111111,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMEA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEZL | Distance: 810 km | Airline: VLG | Arrival: 22:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-5.898888888888888,37.418055555555554,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJTR</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEPA | Distance: 202 km | Airline: VLG | Arrival: 22:21</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738888888888889,39.55166666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZTA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFPG | Distance: 858 km | Airline: EZY | Arrival: 22:22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5477777777777777,49.00972222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLSA</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LPPR | Distance: 899 km | Airline: VLG | Arrival: 22:24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-8.678055555555554,41.23555555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMGZ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EHAM | Distance: 1241 km | Airline: VLG | Arrival: 22:25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.764166666666667,52.308055555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SXDVV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LGAV | Distance: 1904 km | Airline: AEE | Arrival: 22:26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>23.944444444444446,37.93666666666666,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMKV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIRP | Distance: 731 km | Airline: VLG | Arrival: 22:28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>10.395555555555555,43.68277777777777,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECJYX</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPX | Distance: 845 km | Airline: VLG | Arrival: 22:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>10.887777777777778,45.396388888888886,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHT</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGSS | Distance: 1186 km | Airline: RYR | Arrival: 22:31</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.23500000000000001,51.885,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>OYRUP</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: GCLP | Distance: 2175 km | Airline: IBK | Arrival: 22:34</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-15.386666666666667,27.931944444444447,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZWZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: EZY | Arrival: 22:37</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>LYVEV</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIPZ | Distance: 951 km | Airline: VLG | Arrival: 22:39</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.351944444444444,45.50527777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>YLPSH</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: BIKF | Distance: 2981 km | Airline: PRW | Arrival: 22:42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-22.605555555555558,63.985,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>EIDHG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: EDDK | Distance: 1133 km | Airline: RYR | Arrival: 22:43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.142777777777778,50.865833333333335,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZZ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGKK | Distance: 1109 km | Airline: VLG | Arrival: 22:47</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.19027777777777777,51.14805555555556,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMBK</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LIEE | Distance: 634 km | Airline: VLG | Arrival: 22:49</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>9.056111111111111,39.24722222222222,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GEZDJ</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGGW | Distance: 1191 km | Airline: EZY | Arrival: 22:50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3683333333333333,51.874722222222225,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECKHN</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEMH | Distance: 241 km | Airline: VLG | Arrival: 22:52</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.2186111111111115,39.862500000000004,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLZO</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 22:56</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHQI</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFMN | Distance: 496 km | Airline: VLG | Arrival: 23:04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>7.215,43.665277777777774,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECMLD</name>
+      <styleUrl>#nonschengen_line</styleUrl>
+      <description>From: EGCC | Distance: 1380 km | Airline: VLG | Arrival: 23:09</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.275,53.35388888888889,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECLTG</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LFBT | Distance: 271 km | Airline: LAV | Arrival: 23:19</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.002777777777777778,43.18555555555555,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>ECHQJ</name>
+      <styleUrl>#schengen_line</styleUrl>
+      <description>From: LEIB | Distance: 276 km | Airline: VLG | Arrival: 23:57</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3730555555555557,38.87277777777778,0 2.083294,41.297445,0</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
